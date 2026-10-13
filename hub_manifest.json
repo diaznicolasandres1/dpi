@@ -1,0 +1,93 @@
+{
+  "documents": [
+    {
+      "type": "pdf",
+      "source": "theory/course_material/01_DPI_Introducción.pdf",
+      "output": "theory/course_material/01_introduction.md",
+      "title": "DPI Introduction"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/course_material/02_DPI_Clase_2_Valor_Principios_y_dominionos.pdf",
+      "output": "theory/course_material/02_value_principles_and_domains.md",
+      "title": "Value Principles and Performance Domains"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/course_material/03_DPI_Clase3_Dominio_Planificacion.pdf",
+      "output": "theory/course_material/03_planning_domain.md",
+      "title": "Planning Performance Domain"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/course_material/04_DPI_Clase4_Dominio_Planificacion_Plazos.pdf",
+      "output": "theory/course_material/04_schedule_planning.md",
+      "title": "Schedule Planning"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/course_material/05_DPI_Clase5_Dominio_Planificacion_Costos.pdf",
+      "output": "theory/course_material/05_cost_planning.md",
+      "title": "Cost Planning"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/course_material/06_DPI_Clase6_EVM_Medicion.pdf",
+      "output": "theory/course_material/06_evm_measurement.md",
+      "title": "Earned Value Measurement"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/course_material/08_DPI_Clase8_Dominio_Trabajo_del_Proyecto.pdf",
+      "output": "theory/course_material/08_project_work_domain.md",
+      "title": "Project Work Performance Domain"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/course_material/08-09_DPI_Clases08y00_Equipo_e_Interesados.pdf",
+      "output": "theory/course_material/08_09_team_and_stakeholders.md",
+      "title": "Team and Stakeholders"
+    },
+    {
+      "type": "pdf",
+      "source": "submissions/submission_1/Grupo 1_Entrega  N1.pdf",
+      "output": "submissions/submission_1/submission.md",
+      "title": "Submission N1"
+    },
+    {
+      "type": "pdf",
+      "source": "submissions/submission_2/Grupo_1_entrega_N2_Diagrama_de_red_AON.pdf",
+      "output": "submissions/submission_2/network_diagram.md",
+      "title": "AON Network Diagram"
+    },
+    {
+      "type": "docx",
+      "source": "submissions/submission_2/Grupo_1_entrega_N2_Documento_principal.docx",
+      "output": "submissions/submission_2/main_document.md",
+      "title": "Submission N2 Main Document"
+    },
+    {
+      "type": "docx",
+      "source": "submissions/submission_2/Grupo_1_entrega_N2_Anexos.docx",
+      "output": "submissions/submission_2/annexes.md",
+      "title": "Submission N2 Annexes"
+    },
+    {
+      "type": "xlsx",
+      "source": "submissions/submission_2/Grupo_1_entrega_N2_Gantt_y_presupuesto.xlsx",
+      "output": "submissions/submission_2/gantt_and_budget.md",
+      "title": "Submission N2 Gantt and Budget"
+    }
+  ],
+  "manual_conversions": [
+    {
+      "sources": [
+        "theory/cost_appendices/Control_financiero_en_seis_pasos.png",
+        "theory/cost_appendices/Costos_del_proyecto__Curva_S.png",
+        "theory/cost_appendices/Valor_ganado__Home_Banking_Digital.png"
+      ],
+      "output": "theory/cost_appendices/cost_appendices.md",
+      "reason": "The images require visually checked transcription."
+    }
+  ]
+}
