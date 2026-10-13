@@ -43,6 +43,18 @@ Resolve conflicts in this order:
 
 Never silently resolve a material contradiction. Record it in `DECISIONS.md` or flag it to the user.
 
+## Auxiliary exercise workflow
+
+For an auxiliary exercise, structure the answer as study material in this order:
+
+1. **Theoretical introduction:** define the concepts needed to understand the exercise before using them. Cite the source of each key definition, preferably the original course file with its page or slide; use Markdown only to locate the source and verify the definition against the original.
+2. **Explanation of the method:** explain in plain Spanish why the method applies, what each variable and unit means, and which assumptions or limits matter. Distinguish the course's definition from your own explanation.
+3. **Resolution:** show the given data, the steps and calculations, and a final answer with units and a brief interpretation. Check the result against the exercise statement and the relevant course convention.
+
+Deliver every solved auxiliary exercise as two files in the same exercise-specific directory: a Markdown file (`.md`) and a self-contained HTML file (`.html`) with the same base name. Both files must contain the complete theoretical introduction, source citations, method explanation, resolution, and verification; the HTML must not merely link to the Markdown. Use English filenames and keep the academic content in Spanish. Open the HTML and check that formulas, tables, links, and layout are readable before delivery.
+
+Do not invent a definition or cite a source that was not checked. If the course material does not define a necessary concept, identify the alternative source used and say so; if the missing definition changes the answer materially, ask for clarification before presenting a definitive solution.
+
 ## Submission workflow
 
 - Work in the corresponding `submissions/submission_N/` directory.

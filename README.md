@@ -43,6 +43,8 @@ Si se utiliza otro agente, se le debe indicar explícitamente que lea `AI_GUIDE.
 
 > Prepará la próxima entrega usando este repositorio como hub. Revisá primero la consigna, el material teórico relacionado, `SUBMISSION_CRITERIA.md`, `DECISIONS.md` y todas las devoluciones anteriores.
 
+Para ejercicios auxiliares, la respuesta debe servir también como material de estudio: primero una introducción teórica con la fuente y página o diapositiva de cada definición clave; después la explicación del método; por último, la resolución paso a paso y la comprobación del resultado. Cada ejercicio resuelto se entrega en dos archivos con el mismo nombre base, `.md` y `.html`, ambos completos y legibles. Esta secuencia está detallada en [AI_GUIDE.md](AI_GUIDE.md) y rige para Codex, Claude y otros agentes.
+
 ## Maintenance
 
 Después de agregar o reemplazar material original:
