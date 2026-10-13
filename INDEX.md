@@ -25,6 +25,7 @@
   - [08 and 09 Team and Stakeholders](theory/course_material/08_09_team_and_stakeholders.md)
 - [Cost appendices overview](theory/cost_appendices/README.md)
 - [Consolidated cost appendices](theory/cost_appendices/cost_appendices.md)
+- [Earned Value indicators cheatsheet](theory/cost_appendices/earned_value_indicators_cheatsheet.md)
 
 ## Submissions
 

@@ -26,6 +26,8 @@ Repositorio central de materiales, entregas y devoluciones de la materia DPI. Su
 - Los PDF, DOCX, XLSX, Draw.io e imágenes son las fuentes originales.
 - Los archivos Markdown son una capa de consulta y búsqueda.
 - Cuando una tabla, fórmula o diagrama sea decisivo, se debe verificar contra el archivo original.
+- Antes de aplicar un término, método o formato de la materia, localizar la clase y página o diapositiva que lo define. Para diagramas y otros elementos visuales, comparar la clase original con el archivo final renderizado; el texto extraído en Markdown no alcanza para validar el diseño.
+- Si falta la fuente o hay una contradicción, registrar la incertidumbre en vez de asumir una convención general o afirmar que fue validada.
 - Las devoluciones docentes tienen prioridad para corregir las siguientes entregas.
 
 ## Working with AI agents
@@ -119,15 +121,17 @@ Antes de editar:
 1. Leé AI_GUIDE.md, el archivo de entrada correspondiente a tu agente, INDEX.md, SUBMISSION_CRITERIA.md y DECISIONS.md.
 2. Leé la consigna de la entrega, todos los archivos de source/ y feedback.md.
 3. Leé las devoluciones de todas las entregas anteriores.
-4. Consultá las clases teóricas relevantes.
+4. Identificá la clase y página o diapositiva original para cada método, término, fórmula y formato relevante. Usá el Markdown para buscar, pero verificá los detalles y los ejemplos visuales en el PDF o PowerPoint original.
 5. Compará cada observación docente con el documento, la planilla y los diagramas originales.
 
 Creá una versión corregida en revisions/revision_1/ sin sobrescribir los archivos entregados.
 Incluí revision_notes.md con una tabla que relacione cada observación, el cambio realizado, el archivo afectado y la verificación aplicada.
+Anotá en revision_notes.md qué clases y páginas o diapositivas originales usaste para validar los cambios; si algo no pudo validarse, indicá la limitación.
 Reconciliá alcance, EDT, tareas, red, Gantt, recursos y costos.
 Señalá cualquier contradicción que no pueda resolverse con las fuentes disponibles.
 Actualizá el README de la entrega, DECISIONS.md e INDEX.md cuando corresponda.
 Al finalizar, ejecutá make hub-check.
+Antes de dar por terminada la versión, abrí y compará los archivos finales renderizados con las clases originales a tamaño de lectura normal. No des por cumplido un molde solo porque los datos coinciden.
 ```
 
 Para una segunda corrección, cambiar la salida a `revisions/revision_2/` y usar como base la revisión anterior sin modificarla.

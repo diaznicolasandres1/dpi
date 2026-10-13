@@ -50,6 +50,12 @@
     },
     {
       "type": "pdf",
+      "source": "theory/cost_appendices/Machete_Indicadores_Valor_Ganado_DPI.pdf",
+      "output": "theory/cost_appendices/earned_value_indicators_cheatsheet.md",
+      "title": "Earned Value Indicators Cheatsheet"
+    },
+    {
+      "type": "pdf",
       "source": "submissions/submission_1/Grupo 1_Entrega  N1.pdf",
       "output": "submissions/submission_1/submission.md",
       "title": "Submission N1"
