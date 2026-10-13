@@ -27,6 +27,14 @@
 - [Consolidated cost appendices](theory/cost_appendices/cost_appendices.md)
 - [Earned Value indicators cheatsheet](theory/cost_appendices/earned_value_indicators_cheatsheet.md)
 
+## Auxiliary exercises
+
+- Ruta 40 Bikes
+  - [Solved exercise (Markdown)](<auxiliar_exercises/04. Ruta Bike 40/route_40_bikes_solution.md>)
+  - [Solved exercise (HTML)](<auxiliar_exercises/04. Ruta Bike 40/route_40_bikes_solution.html>)
+  - [Original prompt (PDF)](<auxiliar_exercises/04. Ruta Bike 40/Clase_07_Ruta 40 Bikes.pdf>)
+  - [Class location reference (XLSX)](<auxiliar_exercises/04. Ruta Bike 40/Ruta40Bikes_Clase07_Ubicacion.xlsx>)
+
 ## Submissions
 
 - [Submissions overview](submissions/README.md)

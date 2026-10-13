@@ -45,3 +45,4 @@ Decisiones derivadas de la devolución:
 - Validar si el PV del día 15 es USD 38.000 o USD 38.800. Los anexos contienen ambos valores.
 - Confirmar en cada nueva consigna el patrón exacto de nombre y la cantidad de archivos requeridos.
 - Confirmar qué restricción de balances produjo la diferencia entre los 98 días hábiles de la red y los 140 días del calendario de N2.
+- Recuperar las notas de las diapositivas 23 a 25 de `07_DPI_Clase7_Ejercitacion_EVM_Reservas_Contingencia.pptx`: el PDF disponible de Ruta 40 Bikes no incluye la tasa de reserva ni el estado real y los costos reales de la semana 6 necesarios para cerrar numéricamente los pasos 5 a 7.

@@ -47,13 +47,17 @@ Never silently resolve a material contradiction. Record it in `DECISIONS.md` or 
 
 For an auxiliary exercise, structure the answer as study material in this order:
 
-1. **Theoretical introduction:** define the concepts needed to understand the exercise before using them. Cite the source of each key definition, preferably the original course file with its page or slide; use Markdown only to locate the source and verify the definition against the original.
-2. **Explanation of the method:** explain in plain Spanish why the method applies, what each variable and unit means, and which assumptions or limits matter. Distinguish the course's definition from your own explanation.
+1. **Theoretical introduction:** write for a reader with no prior context. Before using a technical term, acronym, symbol, formula, diagram convention, or table heading, define it in plain Spanish. Expand every acronym at first use, translate it when it comes from English, explain what the represented object means in the real situation, and state the unit of measurement. Build the intuitive model first and only then introduce the formal notation. Cite the source of each key definition, preferably the original course file with its page or slide; use Markdown only to locate the source and verify the definition against the original.
+2. **Explanation of the method:** explain in plain Spanish why the method applies, what question each step answers, what each variable and unit means, how information flows from one step to the next, and which assumptions or limits matter. Include at least one small example before the full calculation when the method introduces unfamiliar notation. Do not assume that a later table or diagram will explain an undefined term. Distinguish the course's definition from your own explanation.
 3. **Resolution:** show the given data, the steps and calculations, and a final answer with units and a brief interpretation. Check the result against the exercise statement and the relevant course convention.
 
 Deliver every solved auxiliary exercise as two files in the same exercise-specific directory: a Markdown file (`.md`) and a self-contained HTML file (`.html`) with the same base name. Both files must contain the complete theoretical introduction, source citations, method explanation, resolution, and verification; the HTML must not merely link to the Markdown. Use English filenames and keep the academic content in Spanish. Open the HTML and check that formulas, tables, links, and layout are readable before delivery.
 
+For every diagram, chart, table, or other visual artifact in an auxiliary exercise, reproduce the relevant original class format rather than a simplified generic representation. Match the class's structure, field order, cell divisions, labels, units, colors where meaningful, connectors, arrow semantics, and legibility. If the assignment, instructor feedback, or `SUBMISSION_CRITERIA.md` specifies a stricter format, follow that requirement and document the source used.
+
 Do not invent a definition or cite a source that was not checked. If the course material does not define a necessary concept, identify the alternative source used and say so; if the missing definition changes the answer materially, ask for clarification before presenting a definitive solution.
+
+Before delivery, perform a beginner-readability pass: start at the first technical section and verify that a reader can explain every acronym, variable, arrow, row, column, unit, and result using only the material that appears before it. Rewrite any passage that starts with notation before meaning.
 
 ## Submission workflow
 
