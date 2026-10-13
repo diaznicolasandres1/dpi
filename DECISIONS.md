@@ -7,6 +7,7 @@
 - El contenido académico permanece en español.
 - Los Markdown funcionan como capa de búsqueda; el original prevalece para formato, diagramas y valores visuales.
 - Cada nueva entrega debe tener su propio directorio `submissions/submission_N/` y un `README.md`.
+- Las reglas comunes para agentes se mantienen en `AI_GUIDE.md`; `AGENTS.md` y `CLAUDE.md` son puntos de entrada específicos para Codex y Claude.
 
 ## Submission N1
 

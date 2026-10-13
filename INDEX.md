@@ -3,7 +3,9 @@
 ## Hub guidance
 
 - [Main README](README.md)
-- [Codex instructions](AGENTS.md)
+- [Shared AI agent guide](AI_GUIDE.md)
+- [Codex entry point](AGENTS.md)
+- [Claude entry point](CLAUDE.md)
 - [Submission criteria](SUBMISSION_CRITERIA.md)
 - [Decisions and accumulated feedback](DECISIONS.md)
 - [Glossary and formulas](GLOSSARY.md)

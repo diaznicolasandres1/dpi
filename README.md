@@ -1,7 +1,6 @@
-# dpi
 # DPI Knowledge Hub
 
-Repositorio central de materiales, entregas y devoluciones de la materia DPI. Su propósito es conservar las fuentes originales y ofrecer versiones Markdown que Codex pueda buscar, relacionar y reutilizar al preparar nuevas entregas.
+Repositorio central de materiales, entregas y devoluciones de la materia DPI. Su propósito es conservar las fuentes originales y ofrecer versiones Markdown que agentes como Codex y Claude puedan buscar, relacionar y reutilizar al preparar nuevas entregas.
 
 ## Start here
 
@@ -14,7 +13,9 @@ Repositorio central de materiales, entregas y devoluciones de la materia DPI. Su
 
 - [`theory/`](theory/README.md): clases, material teórico y anexos de costos.
 - [`submissions/`](submissions/README.md): entregas, archivos originales, versiones Markdown y correcciones.
-- [`AGENTS.md`](AGENTS.md): instrucciones permanentes para Codex.
+- [`AI_GUIDE.md`](AI_GUIDE.md): instrucciones compartidas por todos los agentes.
+- [`AGENTS.md`](AGENTS.md): punto de entrada para Codex.
+- [`CLAUDE.md`](CLAUDE.md): punto de entrada para Claude.
 - [`INDEX.md`](INDEX.md): índice navegable del hub.
 - [`SUBMISSION_CRITERIA.md`](SUBMISSION_CRITERIA.md): checklist y requisitos consolidados.
 - [`DECISIONS.md`](DECISIONS.md): decisiones, observaciones pendientes y aprendizajes acumulados.
@@ -27,9 +28,16 @@ Repositorio central de materiales, entregas y devoluciones de la materia DPI. Su
 - Cuando una tabla, fórmula o diagrama sea decisivo, se debe verificar contra el archivo original.
 - Las devoluciones docentes tienen prioridad para corregir las siguientes entregas.
 
-## Working with Codex
+## Working with AI agents
 
-Las tareas nuevas deben iniciarse con este repositorio como proyecto. Codex leerá `AGENTS.md` y utilizará el índice para localizar las fuentes relevantes. Un pedido recomendado es:
+Las tareas nuevas deben iniciarse con este repositorio como proyecto o directorio de trabajo. Cada agente tiene un archivo de entrada que lo dirige a la guía compartida:
+
+| Agent | Entry file | Shared rules |
+|---|---|---|
+| Codex | `AGENTS.md` | `AI_GUIDE.md` |
+| Claude | `CLAUDE.md` | `AI_GUIDE.md` |
+
+Si se utiliza otro agente, se le debe indicar explícitamente que lea `AI_GUIDE.md`. Un pedido recomendado es:
 
 > Prepará la próxima entrega usando este repositorio como hub. Revisá primero la consigna, el material teórico relacionado, `SUBMISSION_CRITERIA.md`, `DECISIONS.md` y todas las devoluciones anteriores.
 
@@ -85,7 +93,7 @@ Después:
 2. Agregar al manifiesto los archivos que necesiten una versión Markdown reutilizable.
 3. Ejecutar `make hub-update`.
 4. Actualizar `INDEX.md` y `submissions/README.md`.
-5. Preparar la entrega revisando obligatoriamente `AGENTS.md`, `SUBMISSION_CRITERIA.md`, `DECISIONS.md` y todas las devoluciones anteriores.
+5. Preparar la entrega revisando obligatoriamente `AI_GUIDE.md`, el archivo de entrada del agente, `SUBMISSION_CRITERIA.md`, `DECISIONS.md` y todas las devoluciones anteriores.
 6. Conservar una copia exacta de lo entregado. No sobrescribirla durante revisiones posteriores.
 
 ## Add instructor feedback
@@ -102,13 +110,13 @@ La devolución debe conservarse textual. Las interpretaciones o decisiones deriv
 
 ## Generate a corrected version with an agent
 
-La tarea debe abrirse usando este repositorio como proyecto. El agente leerá `AGENTS.md` automáticamente. Usar un pedido como el siguiente:
+La tarea debe abrirse usando este repositorio como proyecto o directorio de trabajo. Codex debe partir de `AGENTS.md`, Claude de `CLAUDE.md` y cualquier otro agente de `AI_GUIDE.md`. Usar un pedido como el siguiente:
 
 ```text
 Trabajá sobre submissions/submission_N usando este repositorio como hub.
 
 Antes de editar:
-1. Leé AGENTS.md, INDEX.md, SUBMISSION_CRITERIA.md y DECISIONS.md.
+1. Leé AI_GUIDE.md, el archivo de entrada correspondiente a tu agente, INDEX.md, SUBMISSION_CRITERIA.md y DECISIONS.md.
 2. Leé la consigna de la entrega, todos los archivos de source/ y feedback.md.
 3. Leé las devoluciones de todas las entregas anteriores.
 4. Consultá las clases teóricas relevantes.
@@ -135,4 +143,5 @@ Antes de considerar actualizado el hub:
 - la devolución docente está preservada;
 - `DECISIONS.md` contiene los aprendizajes aplicables al futuro;
 - las revisiones no sobrescriben versiones anteriores;
+- Codex y Claude utilizan las mismas reglas compartidas de `AI_GUIDE.md`;
 - `make hub-check` finaliza sin errores ni advertencias relevantes.

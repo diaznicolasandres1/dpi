@@ -27,12 +27,13 @@ def main() -> None:
 
 1. Add the assignment prompt and original working files under `source/`.
 2. Add reusable sources to `hub_manifest.json` and run `make hub-update`.
-3. Prepare the deliverable without overwriting source files.
-4. Save instructor feedback as `feedback.md`.
-5. Save corrected versions under `revisions/revision_1/`, `revision_2/`, and so on.
-6. Document each correction in the revision's `revision_notes.md`.
-7. Update `DECISIONS.md`, `INDEX.md`, and this README.
-8. Run `make hub-check`.
+3. Read `AI_GUIDE.md` and the entry file for the selected agent.
+4. Prepare the deliverable without overwriting source files.
+5. Save instructor feedback as `feedback.md`.
+6. Save corrected versions under `revisions/revision_1/`, `revision_2/`, and so on.
+7. Document each correction in the revision's `revision_notes.md`.
+8. Update `DECISIONS.md`, `INDEX.md`, and this README.
+9. Run `make hub-check`.
 
 ## Contents
 
