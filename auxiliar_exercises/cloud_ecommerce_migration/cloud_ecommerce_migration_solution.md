@@ -1,26 +1,22 @@
-# Hogar Norte: migración del comercio electrónico a la nube
+# Hogar Norte: teoría y práctica, tema por tema
 
-Material de estudio y resolución guiada de las ocho consignas. Tiempo en **semanas** y dinero en **dólares estadounidenses (USD)**. Se conserva el [PDF original](Ejercicio_DPI_Migracion_Ecommerce_Hogar_Norte.pdf) y una [transcripción de consulta](exercise_prompt.md).
+Material de estudio de las ocho consignas. Tiempo en **semanas** y dinero en **dólares estadounidenses (USD)**. Se conserva el [PDF original](Ejercicio_DPI_Migracion_Ecommerce_Hogar_Norte.pdf) y la [consigna extraída](exercise_prompt.md).
 
-La guía tiene tres partes: **entender las herramientas**, **ver cómo se conectan** y **resolver el caso completo**.
+En cada apartado vas a encontrar **una explicación corta y, enseguida, su aplicación al ejercicio**. Leé y resolvé un tema antes de pasar al siguiente. Las fórmulas aparecen junto a las cuentas en las que se usan.
 
-Para una primera lectura, avanzá hasta el apartado 1.7: ahí aprendemos a organizar las tareas, calcular el tiempo y repartir el presupuesto. Después, los apartados 1.8–1.11 usan **un mismo catálogo pequeño de 100 productos** para entender el control de costos sin mezclar de entrada todos los números del proyecto. El último apartado explica las responsabilidades.
+Para aprender valor ganado vamos a usar un catálogo pequeño de 100 productos. Siempre estará dentro de la parte de teoría. Las aplicaciones identificadas como **Hogar Norte** usan los datos reales de la consigna.
 
-En la resolución vas a encontrar las ocho consignas completas, con sus tablas y gráficos. Las referencias [T1] a [T4] remiten a las clases originales, enlazadas al final.
+Hogar Norte quiere renovar su tienda por Internet, publicar una **app (aplicación móvil)** y mover la tienda a la **nube**, llamada *cloud* en el enunciado: usar servidores de un proveedor en lugar de los propios. Tenemos que averiguar cuánto tarda, cuánto cuesta y cómo viene avanzando.
 
-## 1. Entender el ejercicio antes de calcular
+Las referencias [T1] a [T4] señalan las clases originales, enlazadas al final. Los supuestos se explican en el tema al que corresponden.
 
-Hogar Norte quiere renovar su tienda por Internet, publicar una **app (aplicación móvil)** y hacer publicidad para relanzar las ventas. También quiere mover la tienda a la **nube**, llamada *cloud* en la consigna: usar servidores de un proveedor en lugar de los servidores propios que tiene hoy.
+## 1. Actividades y costos · consigna 1
 
-Nos toca organizar ese trabajo y contestar tres preguntas:
+Primero separamos qué hay que hacer. Después calculamos cuánto cuesta cada trabajo, usando la información que tengamos para estimarlo.
 
-1. **¿Llegamos a terminar a tiempo?** El Directorio permite hasta 18 semanas.
-2. **¿Cuánto dinero vamos a necesitar?** Hay que pagar tanto las tareas como la coordinación del proyecto.
-3. **Cuando el trabajo ya empezó, ¿cómo sabemos si vamos bien?** No alcanza con mirar cuánto se gastó: también hay que mirar qué se terminó.
+### 1.1. Separar el trabajo
 
-Vamos a construir las herramientas para responderlas. Primero con ejemplos pequeños; después las aplicamos a los números completos del caso. Los ejemplos pequeños son explicaciones creadas para estudiar, no datos adicionales de la consigna.
-
-### 1.1. Empecemos por separar el trabajo
+#### Teoría
 
 Imaginá que te dicen: “Hacé la migración”. Con esa frase todavía no podés organizar nada. Necesitás separar qué hay que hacer.
 
@@ -41,7 +37,21 @@ Una firma también puede marcar un momento importante, aunque firmar no tenga un
 
 *Fuente: clase de plazos, páginas 7–9 [T1].*
 
-### 1.2. Cuatro semanas y 640 horas: ¿cómo pueden ser ciertas las dos cosas?
+#### Aplicación en Hogar Norte
+
+En Hogar Norte podemos reconocer esta primera secuencia:
+
+- **A · Arquitectura cloud:** decidir cómo será la infraestructura. Dura dos semanas.
+- **B · Contratación:** cerrar el acuerdo con el proveedor. Dura una semana y espera a A.
+- **C · Aprovisionamiento:** dejar listos servidores, redes y entornos. Dura dos semanas y espera a B.
+
+Por eso la ficha de B dirá “predecesora: A”, y la de C dirá “predecesora: B”. Las firmas se incluyen en sus actividades; no agregamos otra semana para firmar.
+
+La lista completa aparece al final de este tema, una vez calculados sus costos.
+
+### 1.2. Distinguir horas de trabajo y semanas de duración
+
+#### Teoría
 
 La consigna dice que desarrollar la web lleva **640 horas de trabajo** y se termina en **cuatro semanas**.
 
@@ -58,19 +68,31 @@ Esta diferencia importa por una razón práctica: **para armar el calendario usa
 
 *Base del ejemplo: horas y semanas informadas en la consigna, página 2 [E].*
 
-### 1.3. Tres maneras de llegar a un costo
+#### Aplicación en Hogar Norte
 
-Antes de sumar el presupuesto, necesitamos saber cuánto cuesta cada actividad. La forma de obtener ese número depende de la información disponible.
+Para la web usaremos **cuatro semanas** cuando armemos el cronograma. Para calcular el costo usaremos **640 horas** y la tarifa de **USD 50 por hora**.
 
-#### Si ya hicimos algo parecido: estimación análoga
+Web y app se desarrollan al mismo tiempo porque así lo establece el caso. No contamos con una dotación detallada para comprobar si hay personas sobreasignadas; respetamos ese paralelismo informado.
 
-La agencia ya rediseñó la tienda de la filial de Uruguay. Fue un trabajo similar y costó USD 15.000.
+### 1.3. Estimar por comparación
 
-Entonces usamos ese antecedente como referencia para Hogar Norte. Eso se llama **estimación análoga**: estimar comparando con un trabajo parecido.
+#### Teoría
 
-La pregunta que la reconoce es: **“¿Cuánto nos costó algo similar?”**
+Si tenemos el costo de un trabajo anterior parecido, podemos usarlo como referencia. Eso se llama **estimación análoga**.
 
-#### Si conocemos cantidad y precio por unidad: estimación paramétrica
+La pregunta que la reconoce es: **“¿Cuánto nos costó algo similar?”** Conviene comprobar que los trabajos sean comparables en alcance; de lo contrario, habría que ajustar la referencia.
+
+*Fuente: clase de costos, página 10 [T2].*
+
+#### Aplicación en Hogar Norte
+
+**F · Rediseño de tienda y app:** la referencia es el trabajo similar que la misma agencia hizo para Uruguay por **USD 15.000**.
+
+Tomamos ese importe como estimación análoga. El enunciado no da ajustes por inflación ni diferencias de alcance; no los inventamos.
+
+### 1.4. Estimar con cantidades y tarifas
+
+#### Teoría
 
 Para migrar el catálogo sabemos que se cobra **USD 0,50 por producto**.
 
@@ -84,7 +106,17 @@ Eso es una **estimación paramétrica**: calcular a partir de una cantidad y una
 
 En el ejercicio la aplicamos a los productos migrados y a las horas de desarrollo.
 
-#### Si hay incertidumbre: estimación con tres escenarios
+*Fuente: clase de costos, página 10 [T2].*
+
+#### Aplicación en Hogar Norte
+
+- **D · Catálogo:** 60.000 productos / 15.000 productos por semana = **4 semanas**. Costo: 60.000 × USD 0,50 = **USD 30.000**. Por semana: 15.000 × 0,50 = USD 7.500.
+- **G · Web:** 640 horas × USD 50/hora = **USD 32.000**. Se respeta la duración informada de cuatro semanas; 640 no es una duración de calendario.
+- **H · App:** 800 horas × USD 50/hora = **USD 40.000**, en las cinco semanas informadas.
+
+### 1.5. Estimar cuando hay tres escenarios
+
+#### Teoría
 
 En la nube no sabemos con certeza cuánto costará preparar la infraestructura. Puede salir más barato si hay descuentos o más caro si las pruebas necesitan mucha capacidad.
 
@@ -112,11 +144,54 @@ El resultado queda cerca de 130, pero algo por encima: el escenario caro tira el
 
 Cuando aparezcan las letras **O**, **m** y **P**, solo estarán abreviando optimista, más probable y pesimista. No cambian la cuenta.
 
+*Fuente: clase de costos, páginas 8 y 11 [T2].*
+
+#### Aplicación en Hogar Norte
+
+**C · Aprovisionamiento cloud.** Optimista USD 14.000, más probable USD 18.000 y pesimista USD 28.000:
+
+**(14.000 + 4 × 18.000 + 28.000) / 6 = 114.000 / 6 = USD 19.000.**
+
+**E · Migración de clientes y pedidos.** Optimista USD 10.000, más probable USD 15.000 y pesimista USD 26.000:
+
+**(10.000 + 4 × 15.000 + 26.000) / 6 = 96.000 / 6 = USD 16.000.**
+
+En ambos casos el escenario pesimista está más alejado del más probable que el optimista; por eso el resultado esperado queda por encima del más probable. Estos escenarios son de **costo**, no de duración: C sigue durando dos semanas y E también.
+
+Aquí usamos el resultado PERT en el presupuesto, porque la consigna lo pide. El ejemplo de la clase 5, página 11, mantiene el valor más probable en su propio caso; no trasladamos esa decisión a este ejercicio.
+
+### 1.6. Resultado: lista completa de actividades
+
 Por último, algunas tareas ya vienen con un importe único, como “arquitectura: USD 12.000”. Lo tomamos como **costo puntual dado**. La consigna no explica cómo lo estimaron, así que no le atribuimos un método que no conocemos.
 
-*Fuente: clase de costos, páginas 8 y 10–11 [T2].*
+Usamos letras A–N como identificadores. La **actividad M** es la campaña; la **m minúscula** de PERT significa “más probable”.
 
-### 1.4. ¿Por qué no podemos sumar todas las duraciones?
+| ID | Actividad | Duración (sem.) | Predecesoras | Costo (USD) | Estimación |
+| --- | --- | --- | --- | --- | --- |
+| A | Arquitectura cloud | 2 | — | 12.000 | Puntual dada; origen no especificado |
+| B | Contratación cloud | 1 | A | 4.000 | Puntual dada; origen no especificado |
+| C | Aprovisionamiento cloud | 2 | B | 19.000 | Multipunto PERT |
+| D | Migración del catálogo | 4 | C | 30.000 | Paramétrica: productos × tarifa |
+| E | Migración de clientes y pedidos | 2 | C | 16.000 | Multipunto PERT |
+| F | Rediseño de tienda y app | 2 | — | 15.000 | Análoga: filial Uruguay |
+| G | Desarrollo de tienda web | 4 | F | 32.000 | Paramétrica: horas × tarifa |
+| H | Desarrollo de app móvil | 5 | F | 40.000 | Paramétrica: horas × tarifa |
+| I | Integración pagos y logística | 2 | G, C | 10.000 | Puntual dada; origen no especificado |
+| J | Pruebas integrales y seguridad | 2 | D, E, H, I | 14.000 | Puntual dada; origen no especificado |
+| K | Publicación de la app | 1 | J | 2.000 | Puntual dada; origen no especificado |
+| L | Puesta en producción de tienda | 2 | J | 8.000 | Puntual dada; origen no especificado |
+| M | Campaña de relanzamiento | 3 | K, L | 36.000 | Presupuesto dado; origen no especificado |
+| N | Presentación de resultados | 1 | M | 3.000 | Puntual dada; origen no especificado |
+
+La suma de los 14 costos directos es **USD 241.000**. La estructura se calculará después de conocer cuándo empieza la campaña y cuándo termina el proyecto. No se modela como una tarea adicional que condicione la red: es un gasto que acompaña las actividades.
+
+## 2. Dependencias, red y camino crítico · consignas 2 y 3
+
+Con las duraciones y las esperas definidas, ahora podemos averiguar cuándo termina todo. Vamos a calcular los tiempos en dos recorridos: primero hacia adelante y después hacia atrás.
+
+### 2.1. Reconocer qué tarea espera a cuál
+
+#### Teoría
 
 Supongamos que dos trabajos empiezan juntos: uno tarda dos semanas y otro, tres.
 
@@ -138,7 +213,18 @@ Por ejemplo, las pruebas no pueden empezar solo porque terminó la app: también
 
 *Fuente: clase de plazos, páginas 16 y 18 [T1].*
 
-### 1.5. Cuándo puede empezar una tarea y cuánto puede esperar
+#### Aplicación en Hogar Norte
+
+Estas son las dos esperas que suelen generar errores en este caso:
+
+- **Integración I:** espera a la web G y al aprovisionamiento C. No alcanza con tener solo una de las dos listas.
+- **Pruebas J:** espera al catálogo D, clientes E, app H e integración I. Las cuatro tienen que estar terminadas.
+
+El rediseño F empieza desde el primer día. Los desarrollos G y H esperan a F; no les agregamos una espera al aprovisionamiento que el caso no establece.
+
+### 2.2. Calcular los inicios y fines tempranos
+
+#### Teoría
 
 Primero calculemos lo más pronto que podría hacerse cada trabajo.
 
@@ -163,7 +249,25 @@ Esta es la razón de la regla **“tomar el máximo de los fines de las predeces
 
 Ir calculando así, desde el comienzo hacia el final del proyecto, se llama **paso adelante**.
 
-#### Ahora pensemos al revés: cuánto se puede posponer sin mover el cierre
+*Fuente: clase de plazos, página 27 [T1].*
+
+#### Aplicación en Hogar Norte
+
+**Infraestructura y datos:** A ocupa 0–2; B, 2–3; C, 3–5. Después se abren D, de 5 a 9, y E, de 5 a 7.
+
+**Diseño y desarrollo:** F ocupa 0–2. Desde allí G ocupa 2–6 y H ocupa 2–7. La integración I espera a G y a C: ES de I = máximo(6, 5) = **6**; EF de I = 6 + 2 = **8**.
+
+**Convergencia de pruebas:** J requiere D, E, H e I. Por lo tanto, ES de J = máximo(9, 7, 7, 8) = **9**. Aunque la app y los clientes estén listos en 7, las pruebas tienen que esperar al catálogo hasta 9. J termina en **11**.
+
+**Salida y cierre:** K ocupa 11–12 y L ocupa 11–13. M espera a ambas: ES de M = máximo(12, 13) = **13**; termina en **16**. N ocupa 16–17. La presentación no es un hito de duración cero: el caso le asigna una semana.
+
+**Acuerdo de calendario:** como no hay fecha inicial ni feriados, contamos semanas desde el instante 0. La presentación final dura una semana completa; las firmas se consideran incluidas en las actividades correspondientes.
+
+### 2.3. Calcular el margen de cada tarea
+
+#### Teoría
+
+Ahora pensemos al revés: cuánto se puede posponer sin mover el cierre
 
 Supongamos que una tarea de dos semanas tiene que estar lista como máximo en el instante 9.
 
@@ -180,7 +284,7 @@ Se calcula desde el final del proyecto hacia el principio. Por eso se llama **pa
 
 Si una actividad alimenta a dos tareas que necesitan empezar, como máximo, en 7 y en 9, debe estar lista en **7**. De lo contrario bloquearía a la primera. Esa es la razón de tomar el **mínimo** cuando hacemos el recorrido hacia atrás.
 
-#### La diferencia entre “podés empezar” y “tenés que empezar”
+**La diferencia entre “podés empezar” y “tenés que empezar”**
 
 Si una tarea puede empezar en 5, pero podría esperar hasta 7 sin cambiar el fin del proyecto, tiene **dos semanas de margen**.
 
@@ -198,322 +302,7 @@ Al mirar un nodo del dibujo, los cuatro casilleros se leen siempre en este orden
 
 *Fuente: clase de plazos, páginas 19, 21 y 26–28 [T1].*
 
-### 1.6. Pasar el plan a un calendario: el Gantt
-
-La red nos muestra las esperas. Ahora queremos ver qué estará haciendo el equipo durante cada semana.
-
-Para eso dibujamos una barra por actividad:
-
-- Su posición muestra cuándo empieza.
-- Su largo muestra cuánto dura.
-- Su extremo muestra cuándo termina.
-
-Ese dibujo se llama **diagrama de Gantt**. Si una tarea empieza en el instante 5 y termina en 9, su barra ocupa las semanas **6 a 9**. No ocupa la semana 5: al instante 5, esa semana ya terminó.
-
-El Gantt tiene que contar la misma historia que la red. No podemos mover una barra a una semana anterior si con eso hacemos que empiece antes de terminar su predecesora.
-
-*Fuente: clase de plazos, páginas 29–30 [T1].*
-
-### 1.7. No solo importa cuánto cuesta: también cuándo lo vamos a gastar
-
-Pensemos en una tarea de USD 6.000 que dura dos semanas.
-
-Para este ejercicio repartimos su costo por igual:
-
-- Primera semana: **USD 3.000**.
-- Segunda semana: **USD 3.000**.
-
-Si hay otra tarea activa durante la primera semana, sumamos también su costo semanal. Haciendo eso para todas las actividades armamos el **Gantt de costos**: una tabla que muestra el dinero previsto en cada semana.
-
-Ahora vamos acumulándolo. Si la primera semana se prevén 3.000 y la segunda 4.000, al cerrar la segunda llevamos **7.000 acumulados**.
-
-Ese presupuesto distribuido en el tiempo es nuestra **línea base de costos**: el plan que conservamos para comparar después con lo que realmente ocurra.
-
-Si dibujamos el acumulado en un gráfico, obtenemos la **Curva S**. El eje horizontal muestra las semanas; el vertical, los dólares acumulados. Se llama así por su forma habitual, aunque el gráfico de un proyecto concreto no tiene que parecer una S perfecta.
-
-El último valor es todo el dinero presupuestado para el trabajo. Se llama **BAC — Budget at Completion**, presupuesto hasta la conclusión. En Hogar Norte sumaremos dos grupos:
-
-- **Costos directos:** los que asignamos a una tarea, como desarrollar la app.
-- **Estructura:** lo que sostiene al proyecto, como coordinación, herramientas y seguros.
-
-El costo de estructura también cuenta, aunque no aparezca como una barra que habilita otra tarea.
-
-Podría haber dinero reservado para riesgos. La **reserva para contingencias** cubre riesgos identificados y se incluye en la línea base; la **reserva de gestión** queda fuera de ella. Como este ejercicio no da importes de reservas, no agregamos porcentajes propios.
-
-*Fuentes: clase de costos, páginas 9, 13–18 y 20–22 [T2]; definición de BAC, clase de medición, página 20 [T3].*
-
-### 1.8. El punto más importante: gastar dinero no demuestra que el trabajo avanzó
-
-Por un momento dejemos el catálogo real y usemos uno pequeño para aprender la idea.
-
-Tenemos que migrar **100 productos**. Presupuestamos **USD 10 por producto**. El presupuesto completo es entonces **USD 1.000**.
-
-Llegó el viernes y el plan decía que ya debían estar migrados **50 productos**. Sin embargo, el equipo terminó **40** y gastó **USD 600**.
-
-Necesitamos mirar tres cosas por separado.
-
-#### Primero: qué deberíamos llevar hecho
-
-El plan decía 50 productos. Como presupuestamos USD 10 por producto:
-
-**50 × 10 = USD 500 de trabajo previsto.**
-
-Eso se llama **PV — Planned Value**, valor planificado. Es la respuesta a: **“Según el plan, ¿cuánto trabajo debía estar listo a esta fecha, medido a precio de presupuesto?”**
-
-#### Segundo: qué trabajo terminamos realmente
-
-Terminamos 40 productos. Los valoramos con los mismos USD 10 presupuestados:
-
-**40 × 10 = USD 400 de trabajo realizado.**
-
-Eso se llama **EV — Earned Value**, valor ganado. “Ganado” significa que completamos ese trabajo y podemos reconocer su valor presupuestado. No son ventas ni ganancias de la empresa.
-
-#### Tercero: cuánto pagamos por hacerlo
-
-El gasto fue de **USD 600**. Lo tomamos del registro real, no del plan.
-
-Eso se llama **AC — Actual Cost**, costo real.
-
-Antes de seguir, retené los tres números del ejemplo:
-
-- Debíamos tener **500** de trabajo hecho: **PV**.
-- Tenemos **400** de trabajo hecho: **EV**.
-- Para hacerlo gastamos **600**: **AC**.
-
-Esta comparación es la base del **Método del Valor Ganado**, llamado **EVM** por *Earned Value Management*. Expresamos el trabajo en dinero presupuestado para poder compararlo con el gasto. Los tres valores se miden en USD y corresponden a la misma fecha.
-
-Cuando el avance viene en porcentaje, hacemos lo mismo: una tarea presupuestada en USD 1.000 que está al 40 % tiene EV = 1.000 × 0,40 = USD 400.
-
-*Fuente: clase de medición, páginas 9–12 [T3].*
-
-### 1.9. Dos comparaciones para saber qué salió mal
-
-Sigamos con los mismos 100 productos. No hace falta aprender otro ejemplo.
-
-#### ¿Nos costó más de lo previsto hacer el trabajo terminado?
-
-Terminamos trabajo que habíamos presupuestado en **400**, pero gastamos **600**.
-
-**400 − 600 = −USD 200.**
-
-El signo negativo señala que el costo fue desfavorable: producir ese trabajo costó 200 más que su presupuesto.
-
-La cuenta se llama **CV — Cost Variance**, variación de costo:
-
-**CV = EV − AC.**
-
-#### ¿Terminamos todo lo que tocaba para el viernes?
-
-Teníamos que llegar a **500** de trabajo, pero llegamos a **400**.
-
-**400 − 500 = −USD 100.**
-
-Nos faltó completar trabajo que valía 100 según el presupuesto. La cuenta se llama **SV — Schedule Variance**, variación del cronograma:
-
-**SV = EV − PV.**
-
-Aunque habla del cronograma, **SV está en dólares**. Nos dice cuánto trabajo quedó pendiente frente al plan. Para saber cuántas semanas se moverá el proyecto, tenemos que volver a las tareas y al camino crítico.
-
-*Fuente: clase de medición, página 15 [T3].*
-
-### 1.10. Dos divisiones para medir qué tan bien venimos
-
-Las diferencias anteriores dicen cuántos dólares nos desviamos. Ahora queremos medir la proporción.
-
-#### Cuánto trabajo conseguimos por cada dólar gastado
-
-Gastamos 600 y conseguimos 400 de trabajo presupuestado:
-
-**400 / 600 = 0,6667.**
-
-Por cada dólar gastado conseguimos aproximadamente **USD 0,67 de trabajo que habíamos presupuestado**. Queríamos conseguir uno; obtuvimos menos.
-
-Esta medida se llama **CPI — Cost Performance Index**, índice de desempeño del costo:
-
-**CPI = EV / AC.**
-
-#### Qué parte del trabajo previsto alcanzamos
-
-Llegamos a 400 de los 500 previstos:
-
-**400 / 500 = 0,80.**
-
-Hicimos el **80 % del valor de trabajo que debíamos tener listo para ese viernes**.
-
-Esta medida se llama **SPI — Schedule Performance Index**, índice de desempeño del cronograma:
-
-**SPI = EV / PV.**
-
-En los dos índices, **1 significa coincidir con la referencia**. Menos de 1 indica una situación desfavorable; más de 1, favorable. Son proporciones, sin unidad.
-
-En este ejemplo SPI = 0,80 no permite afirmar “vamos a tardar 20 % más de semanas”. Quizá lo que falta tiene margen; quizá está en la ruta que bloquea todo. Hay que mirar la red.
-
-*Fuente: clase de medición, páginas 17–18 [T3].*
-
-### 1.11. Si seguimos trabajando así, ¿cuánto dinero va a hacer falta?
-
-Todavía estamos en el ejemplo de 100 productos, con presupuesto total de **USD 1.000**. Terminamos trabajo por **400** y gastamos **600**.
-
-#### Cuánto costaría terminar todo: EAC
-
-Con los 600 gastados hicimos el 40 % del trabajo. Si el resto cuesta al mismo ritmo, hacer el 100 % costaría:
-
-**600 / 0,40 = USD 1.500.**
-
-A ese total pronosticado lo llamamos **EAC — Estimate at Completion**, estimación a la conclusión.
-
-También se obtiene dividiendo el presupuesto total por la eficiencia observada: **EAC = BAC / CPI**. En el ejemplo: 1.000 / (400 / 600) = 1.500.
-
-Esta fórmula supone que la eficiencia de costo se mantiene. Si corregimos la causa del sobrecosto, el futuro puede cambiar. El pronóstico no es una autorización para gastar más.
-
-#### Cuánto falta gastar desde hoy: ETC
-
-De esos 1.500 totales, ya gastamos 600:
-
-**1.500 − 600 = USD 900 pendientes de gastar.**
-
-Eso es **ETC — Estimate to Complete**, estimación para completar:
-
-**ETC = EAC − AC.**
-
-#### Cuánto nos pasaríamos del presupuesto: VAC
-
-Habíamos presupuestado 1.000 y ahora estimamos terminar en 1.500:
-
-**1.000 − 1.500 = −USD 500.**
-
-Eso es **VAC — Variance at Completion**, variación a la conclusión:
-
-**VAC = BAC − EAC.**
-
-No confundas esos dos resultados: **900** es lo que falta gastar; **500** es lo que excedería al presupuesto original.
-
-#### Qué tendríamos que lograr para no pasarnos: TCPI
-
-Nos falta trabajo que habíamos presupuestado en **1.000 − 400 = 600**.
-
-Pero del presupuesto original solo queda dinero por **1.000 − 600 = 400**.
-
-Para cumplir el presupuesto tendríamos que producir esos 600 de trabajo con solo 400 de dinero:
-
-**600 / 400 = 1,50.**
-
-Es decir: por cada dólar que gastemos desde ahora, deberíamos conseguir **USD 1,50 de trabajo presupuestado**. Hasta ahora conseguíamos apenas 0,67. Haría falta una mejora muy importante.
-
-Esta exigencia se llama **TCPI — To-Complete Performance Index**, índice de desempeño del trabajo por completar:
-
-**TCPI = (BAC − EV) / (BAC − AC).**
-
-Arriba va el **trabajo pendiente**, medido a presupuesto. Abajo va el **dinero que queda**. El resultado describe la eficiencia que necesitaríamos, no la que ya tenemos.
-
-*Fuente: clase de medición, páginas 20–23 [T3].*
-
-### 1.12. A quién le toca hacer cada cosa
-
-Volvamos a Hogar Norte. En una contratación participan varias personas, pero no todas hacen lo mismo.
-
-El líder de Infraestructura negocia. Seguridad revisa las cláusulas. El gerente firma. El director del proyecto responde por que la actividad salga bien.
-
-Para dejar claras esas diferencias usamos la **matriz RACIS**. Es una tabla: cada fila es una actividad; cada columna, un rol. La letra de la celda explica cómo participa ese rol.
-
-- **R — Responsible, responsable de ejecutar:** hace el trabajo. En la contratación, Infraestructura.
-- **A — Accountable, quien rinde cuentas:** responde por el resultado. En esa contratación, el director del proyecto.
-- **C — Consulted, consultado:** aporta una opinión que se necesita para trabajar o decidir. En esa contratación, Seguridad.
-- **I — Informed, informado:** recibe novedades o resultados. Por ejemplo, en el diseño de arquitectura, el gerente recibe el diseño final.
-- **S — Sign, firma:** tiene que firmar el documento. En la contratación, el gerente general.
-
-La diferencia central es **hacer, responder y firmar**. Pueden corresponder a personas distintas.
-
-Al revisar cada fila buscamos **un solo A**, para que esté claro quién rinde cuentas, y **al menos un R**, para que el trabajo tenga ejecutor.
-
-En el caso, el director del proyecto tiene A como regla general. Pero hay dos excepciones expresas: **el gerente general responde por la campaña y por la presentación final**. Al completar esas filas seguimos lo que dice el caso.
-
-*Fuente: clase de equipo e interesados, páginas 20–21 y 24–25 [T4].*
-
-
-## 2. Método de resolución y supuestos que hacen falta
-
-Antes de empezar las cuentas, conviene saber para qué sirve cada paso:
-
-1. **Listamos el trabajo y calculamos sus costos.** Así sabemos qué tareas hay y cuánto presupuestar para cada una.
-2. **Ordenamos qué espera a qué.** Con esas dependencias calculamos cuándo puede empezar y terminar cada actividad.
-3. **Buscamos la cadena que fija el cierre.** Eso permite comprobar si llegamos a las 18 semanas.
-4. **Dibujamos las tareas sobre las semanas.** Ese es el Gantt; usamos las mismas fechas, sin cambiarlas.
-5. **Repartimos los costos en esas semanas.** Obtenemos cuánto trabajo presupuestado deberíamos llevar a cada fecha.
-6. **Nos detenemos al cierre de la semana 6.** Comparamos lo que debía estar hecho, lo que está hecho y lo gastado.
-7. **Estimamos qué puede pasar de aquí al final.** Usamos esa comparación para pronosticar el dinero necesario.
-8. **Dejamos claro quién participa en cada tarea.** Completamos la matriz de responsabilidades.
-
-### Acuerdos de cálculo para este caso
-
-Estas aclaraciones explican cómo tratamos los datos que la consigna no detalla. Podés volver a ellas cuando aparezcan en la resolución.
-
-1. **Calendario relativo:** no hay fecha de inicio ni feriados. Se usan semanas consecutivas; el intervalo de tiempo 0–2 corresponde a las semanas 1 y 2. El cierre de la semana 6 es el instante 6. No se inventan fechas de calendario.
-2. **Dependencias:** se incorporan las que afirma el caso. El desarrollo web y móvil dependen del rediseño, no del aprovisionamiento cloud; la integración sí depende del aprovisionamiento y de la web. No se agregan restricciones técnicas que el enunciado no dio.
-3. **Paralelismo y recursos:** se acepta la ejecución simultánea expresamente indicada. Web y app requieren 160 horas por semana cada una; si se supusieran jornadas de 40 horas, equivaldrían a cuatro personas a tiempo completo por frente. Es una equivalencia de esfuerzo, no una dotación confirmada. El caso no permite comprobar una nivelación de recursos ni agregar demoras por sobreasignación.
-4. **Firmas y aprobaciones:** están incluidas en las actividades correspondientes; no se les asigna una duración extra inventada. La presentación final ocupa una semana completa después de la campaña.
-5. **Costos:** se distribuyen uniformemente durante cada actividad. Es el modelo pedagógico de la clase; sin calendario de pagos no se puede afirmar que sean desembolsos bancarios efectivos. Se usan los costos PERT calculados en la línea base porque esta consigna lo exige; no se conserva el valor más probable como hace el ejemplo ilustrativo de la clase 5, página 11.
-6. **Estructura:** se aplica USD 3.000 por semana hasta antes de comenzar la campaña y USD 1.500 por semana desde su inicio hasta el cierre. Para medirla al corte se usa **nivel de esfuerzo**: el servicio de coordinación prestado durante seis semanas gana el mismo valor previsto para esas seis semanas, USD 18.000. Es un supuesto explícito de medición de soporte; no significa que los entregables técnicos hayan avanzado al ritmo planificado. Su efecto es acercar los índices globales a 1.
-7. **Datos reales:** “contratación según lo previsto” se interpreta como finalizada y con costo real de USD 4.000. App “según lo planificado” significa 80 % al cierre de la semana 6. Actividades aún no iniciadas no acumulan trabajo ni gasto, dado que no se informan anticipos.
-8. **Pronóstico:** se utiliza la continuidad del CPI de la clase. Las proyecciones de fechas basadas en ritmos de migración se presentarán como escenarios, no como hechos observados.
-
-## 3. Resolución paso a paso
-
-### Paso 1. Lista de actividades y estimación de costos — consigna 1
-
-Usamos letras A–N como identificadores. La letra **M de la actividad campaña** no debe confundirse con el escenario “más probable” de PERT, que aquí se escribió con **m minúscula**.
-
-#### Los dos costos PERT
-
-**C · Aprovisionamiento cloud.** Optimista USD 14.000, más probable USD 18.000 y pesimista USD 28.000:
-
-**(14.000 + 4 × 18.000 + 28.000) / 6 = 114.000 / 6 = USD 19.000.**
-
-**E · Migración de clientes y pedidos.** Optimista USD 10.000, más probable USD 15.000 y pesimista USD 26.000:
-
-**(10.000 + 4 × 15.000 + 26.000) / 6 = 96.000 / 6 = USD 16.000.**
-
-En ambos casos el escenario pesimista está más alejado del más probable que el optimista; por eso el resultado esperado queda por encima del más probable. Estos escenarios son de **costo**, no de duración: C sigue durando dos semanas y E también.
-
-#### Los costos paramétricos y la duración del catálogo
-
-- **D · Catálogo:** 60.000 productos / 15.000 productos por semana = **4 semanas**. Costo: 60.000 × USD 0,50 = **USD 30.000**. Por semana: 15.000 × 0,50 = USD 7.500.
-- **G · Web:** 640 horas × USD 50/hora = **USD 32.000**. Se respeta la duración informada de cuatro semanas; 640 no es una duración de calendario.
-- **H · App:** 800 horas × USD 50/hora = **USD 40.000**, en las cinco semanas informadas.
-- **F · Rediseño:** **USD 15.000** por estimación análoga al trabajo de Uruguay. No se transforma en estimación paramétrica dividiendo el costo por dos semanas: esa división solo sirve luego para distribuirlo.
-
-| ID | Actividad | Duración (sem.) | Predecesoras | Costo (USD) | Estimación |
-| --- | --- | --- | --- | --- | --- |
-| A | Arquitectura cloud | 2 | — | 12.000 | Puntual dada; origen no especificado |
-| B | Contratación cloud | 1 | A | 4.000 | Puntual dada; origen no especificado |
-| C | Aprovisionamiento cloud | 2 | B | 19.000 | Multipunto PERT |
-| D | Migración del catálogo | 4 | C | 30.000 | Paramétrica: productos × tarifa |
-| E | Migración de clientes y pedidos | 2 | C | 16.000 | Multipunto PERT |
-| F | Rediseño de tienda y app | 2 | — | 15.000 | Análoga: filial Uruguay |
-| G | Desarrollo de tienda web | 4 | F | 32.000 | Paramétrica: horas × tarifa |
-| H | Desarrollo de app móvil | 5 | F | 40.000 | Paramétrica: horas × tarifa |
-| I | Integración pagos y logística | 2 | G, C | 10.000 | Puntual dada; origen no especificado |
-| J | Pruebas integrales y seguridad | 2 | D, E, H, I | 14.000 | Puntual dada; origen no especificado |
-| K | Publicación de la app | 1 | J | 2.000 | Puntual dada; origen no especificado |
-| L | Puesta en producción de tienda | 2 | J | 8.000 | Puntual dada; origen no especificado |
-| M | Campaña de relanzamiento | 3 | K, L | 36.000 | Presupuesto dado; origen no especificado |
-| N | Presentación de resultados | 1 | M | 3.000 | Puntual dada; origen no especificado |
-
-La suma de los 14 costos directos es **USD 241.000**. La estructura se calculará después de conocer cuándo empieza la campaña y cuándo termina el proyecto. No se modela como una tarea adicional que condicione la red: es un gasto que acompaña las actividades.
-
-### Paso 2. Cálculo de tiempos y red AON — consigna 2
-
-#### 2.1. Recorrido hacia adelante
-
-**Infraestructura y datos:** A ocupa 0–2; B, 2–3; C, 3–5. Después se abren D, de 5 a 9, y E, de 5 a 7.
-
-**Diseño y desarrollo:** F ocupa 0–2. Desde allí G ocupa 2–6 y H ocupa 2–7. La integración I espera a G y a C: ES de I = máximo(6, 5) = **6**; EF de I = 6 + 2 = **8**.
-
-**Convergencia de pruebas:** J requiere D, E, H e I. Por lo tanto, ES de J = máximo(9, 7, 7, 8) = **9**. Aunque la app y los clientes estén listos en 7, las pruebas tienen que esperar al catálogo hasta 9. J termina en **11**.
-
-**Salida y cierre:** K ocupa 11–12 y L ocupa 11–13. M espera a ambas: ES de M = máximo(12, 13) = **13**; termina en **16**. N ocupa 16–17. La presentación no es un hito de duración cero: el caso le asigna una semana.
-
-#### 2.2. Recorrido hacia atrás
+#### Aplicación en Hogar Norte
 
 Anclamos el cierre calculado en **17**, no en 18: queremos la holgura respecto del plan de duración mínima. N tiene LF = 17 y LS = 16; M tiene LF = 16 y LS = 13. K y L deben terminar a más tardar en 13: K tiene LS = 12 y L tiene LS = 11.
 
@@ -521,7 +310,7 @@ J alimenta a K y L, por lo que LF de J = mínimo(12, 11) = **11** y LS de J = **
 
 C alimenta a D, E e I: LF de C = mínimo(5, 7, 7) = **5**, y LS de C = **3**. G tiene LF = 7 y LS = 3. F alimenta a G y H: LF de F = mínimo(3, 4) = **3** y LS de F = **1**. Completamos B y A hasta volver al inicio.
 
-#### 2.3. Tiempos y holguras
+### 2.4. Resultado: tiempos, red y cumplimiento del plazo
 
 Todos los valores de esta tabla están en semanas transcurridas desde el inicio. La holgura usa el fin calculado de 17 semanas.
 
@@ -542,7 +331,7 @@ Todos los valores de esta tabla están en semanas transcurridas desde el inicio.
 | M | 13 | 13 | 16 | 16 | 0 | Sí |
 | N | 16 | 16 | 17 | 17 | 0 | Sí |
 
-#### 2.4. Diagrama con el molde de la cátedra
+#### El diagrama completo
 
 El encabezado de cada nodo separa **ID y duración**. Los tiempos aparecen en cuatro celdas en orden **ES | LS | EF | LF**, y la holgura se indica debajo. Las actividades y flechas críticas son magenta; las demás, grises. Se respeta la estructura de las páginas 19 y 21 de la clase de plazos y la observación docente de la entrega 2. Las flechas tienen puntas individuales; no se fusionan tramos de relaciones diferentes.
 
@@ -554,7 +343,17 @@ El encabezado de cada nodo separa **ID y duración**. Los tiempos aparecen en cu
 
 Se cumple el máximo de 18 semanas con **una semana de margen respecto del compromiso externo**. Esa semana no es una reserva agregada al cronograma ni la holgura interna de las tareas críticas. Si se recalcularan los tiempos tardíos tomando 18 como fecha límite, se obtendría margen adicional respecto de esa restricción; aquí no se mezclan ambos criterios.
 
-### Paso 3. Cuántos caminos tiene la red — consigna 3
+### 2.5. Contar los caminos
+
+#### Teoría
+
+Un **camino** es un recorrido completo de flechas, desde una actividad inicial hasta el cierre. Para contar caminos, seguimos cada alternativa en una bifurcación y continuamos hasta el final.
+
+La duración de cada camino se obtiene sumando las duraciones de sus actividades. El más largo determina el fin del proyecto; las ramas más cortas no permiten saltarse el resto de las tareas.
+
+*Fuente para red y camino crítico: clase de plazos, páginas 16 y 26–28 [T1]. La enumeración se desarrolla aquí para la consigna 3.*
+
+#### Aplicación en Hogar Norte
 
 Para contar, seguimos cada alternativa de flechas de principio a fin. Hasta las pruebas hay cinco ramas: A–B–C–D, A–B–C–E, A–B–C–I, F–G–I y F–H. Después de las pruebas hay dos: K–M–N y L–M–N. Hay **5 × 2 = 10 caminos**. Solo uno tiene 17 semanas.
 
@@ -573,7 +372,29 @@ Para contar, seguimos cada alternativa de flechas de principio a fin. Hasta las 
 
 Un camino de 14 semanas no autoriza a terminar todo el proyecto en 14: en las convergencias hay que esperar también a las otras ramas. La duración del proyecto es la del camino más largo. Los 10 caminos se cuentan con las dependencias explícitas del caso, sin agregar flechas redundantes ni actividades ficticias de costo.
 
-### Paso 4. Diagrama de Gantt — consigna 4
+## 3. Diagrama de Gantt · consigna 4
+
+Ya sabemos cuándo empieza y termina cada actividad. Vamos a mostrarlo sobre una escala de semanas.
+
+### 3.1. Pasar de la red al calendario
+
+#### Teoría
+
+La red nos muestra las esperas. Ahora queremos ver qué estará haciendo el equipo durante cada semana.
+
+Para eso dibujamos una barra por actividad:
+
+- Su posición muestra cuándo empieza.
+- Su largo muestra cuánto dura.
+- Su extremo muestra cuándo termina.
+
+Ese dibujo se llama **diagrama de Gantt**. Si una tarea empieza en el instante 5 y termina en 9, su barra ocupa las semanas **6 a 9**. No ocupa la semana 5: al instante 5, esa semana ya terminó.
+
+El Gantt tiene que contar la misma historia que la red. No podemos mover una barra a una semana anterior si con eso hacemos que empiece antes de terminar su predecesora.
+
+*Fuente: clase de plazos, páginas 29–30 [T1].*
+
+#### Aplicación en Hogar Norte
 
 Para ubicar una barra, usamos el inicio y el fin tempranos ya calculados. Una actividad con ES = 5 y EF = 9 ocupa las semanas **6, 7, 8 y 9**. No ocupa la semana 5: esa semana termina precisamente en el instante 5.
 
@@ -598,19 +419,44 @@ Para ubicar una barra, usamos el inicio y el fin tempranos ya calculados. Una ac
 
 La nueva tienda termina su puesta en producción al cierre de la semana 13; la app está publicada al cierre de la 12. La campaña puede empezar en la **14**, ocupa 14–16 y la presentación se realiza en la **17**. No se inicia la publicidad solo porque la app ya esté publicada: también se necesita la tienda operativa.
 
-### Paso 5. Gantt de costos, Curva S y presupuesto — consigna 5
+## 4. Costos por semana y Curva S · consigna 5
 
-#### 5.1. Cálculo de los gastos de estructura
+Vamos a usar el Gantt para ubicar los costos en el tiempo. Así podremos saber cuánto se prevé gastar en cada semana y cuánto se acumula.
+
+### 4.1. Agregar los gastos de estructura
+
+#### Teoría
+
+Además de pagar cada tarea, hay que sostener la coordinación, las herramientas de gestión y los seguros. Ese gasto compartido se llama **estructura**. La consigna fija una tarifa semanal que baja cuando comienza la campaña.
+
+*Fuente conceptual: clase de costos, página 9 [T2]; tarifas: consigna, página 2 [E].*
+
+#### Aplicación en Hogar Norte
 
 Antes del inicio de campaña transcurren 13 semanas: **13 × 3.000 = USD 39.000**. Desde que empieza la campaña hasta el cierre hay cuatro semanas, las 14–17: **4 × 1.500 = USD 6.000**.
 
 **Estructura total = 39.000 + 6.000 = USD 45.000.**
 
-**BAC = 241.000 de actividades + 45.000 de estructura = USD 286.000.**
+El costo de todas las actividades más la estructura es **241.000 + 45.000 = USD 286.000**. Enseguida veremos cómo este total cierra la curva acumulada.
 
 No se cobran 18 semanas de estructura: 18 es el límite permitido, mientras que el plan termina en 17. Tampoco se baja la tarifa desde el fin de la campaña: el caso dice que baja desde su inicio.
 
-#### 5.2. Distribución por semana
+### 4.2. Repartir el costo durante cada actividad
+
+#### Teoría
+
+Pensemos en una tarea de USD 6.000 que dura dos semanas.
+
+Para este ejercicio repartimos su costo por igual:
+
+- Primera semana: **USD 3.000**.
+- Segunda semana: **USD 3.000**.
+
+Si hay otra tarea activa durante la primera semana, sumamos también su costo semanal. Haciendo eso para todas las actividades armamos el **Gantt de costos**: una tabla que muestra el dinero previsto en cada semana.
+
+*Fuente: clase de costos, páginas 13–14 y 20 [T2].*
+
+#### Aplicación en Hogar Norte
 
 Para cada actividad dividimos costo / duración y colocamos ese importe en cada semana activa. Después sumamos por columna y acumulamos de izquierda a derecha. En las tablas, **— significa costo planificado cero**; los números están en USD. Se divide en dos paneles para conservar la legibilidad, como hace la clase de costos en páginas 13–14 [T2].
 
@@ -662,15 +508,90 @@ Ejemplo de lectura, **semana 6**: catálogo 7.500 + clientes 8.000 + web 8.000 +
 
 En semana 7 ya no se planifica web: aparecen la segunda semana de clientes, la última de app y la primera de integración. El flujo semanal cambia porque cambia el conjunto de tareas activas, no porque se haya modificado arbitrariamente una tarifa.
 
-#### 5.3. Curva S
+**Supuesto:** repartimos el costo por igual durante las semanas de cada tarea. Es el modelo enseñado en la clase. Sin fechas de facturación, esta tabla no permite asegurar qué día se harán los pagos bancarios.
+
+### 4.3. Acumular el presupuesto
+
+#### Teoría
+
+Ahora vamos acumulándolo. Si la primera semana se prevén 3.000 y la segunda 4.000, al cerrar la segunda llevamos **7.000 acumulados**.
+
+Ese presupuesto distribuido en el tiempo es nuestra **línea base de costos**: el plan que conservamos para comparar después con lo que realmente ocurra.
+
+Si dibujamos el acumulado en un gráfico, obtenemos la **Curva S**. El eje horizontal muestra las semanas; el vertical, los dólares acumulados. Se llama así por su forma habitual, aunque el gráfico de un proyecto concreto no tiene que parecer una S perfecta.
+
+El último valor es todo el dinero presupuestado para el trabajo. Se llama **BAC — Budget at Completion**, presupuesto hasta la conclusión. En Hogar Norte sumaremos dos grupos:
+
+- **Costos directos:** los que asignamos a una tarea, como desarrollar la app.
+- **Estructura:** lo que sostiene al proyecto, como coordinación, herramientas y seguros.
+
+El costo de estructura también cuenta, aunque no aparezca como una barra que habilita otra tarea.
+
+Podría haber dinero reservado para riesgos. La **reserva para contingencias** cubre riesgos identificados y se incluye en la línea base; la **reserva de gestión** queda fuera de ella. Como este ejercicio no da importes de reservas, no agregamos porcentajes propios.
+
+*Fuentes: clase de costos, páginas 9, 13–18 y 20–22 [T2]; definición de BAC, clase de medición, página 20 [T3].*
+
+#### Aplicación en Hogar Norte
+
+En el gráfico, cada punto suma todo lo previsto desde el inicio hasta esa semana.
+
+**BAC = 241.000 de actividades + 45.000 de estructura = USD 286.000.**
 
 ![Curva S de costos acumulados, con referencia al corte de semana 6 y cierre](assets/cost_baseline.svg)
 
 El eje horizontal muestra el cierre de cada semana y el vertical el costo planificado acumulado en USD. Se parte de cero y se llega a USD 286.000. Esta curva permite leer qué valor de trabajo debía estar programado al corte. No se reemplaza por una recta de 286.000 / 17 por semana: las actividades no tienen el mismo costo ni ocurren simultáneamente durante todo el proyecto.
 
-### Paso 6. Situación al cierre de la semana 6 — consigna 6
+## 5. Control al cierre de la semana 6 · consigna 6
 
-#### 6.1. Primero convertir el relato en avances comparables
+Ahora el proyecto ya empezó. Vamos a comparar el plan con lo que realmente se terminó y se gastó. Aprendemos una comparación y enseguida la hacemos con Hogar Norte.
+
+### 5.1. Separar lo previsto, lo realizado y lo gastado
+
+#### Teoría
+
+Por un momento dejemos el catálogo real y usemos uno pequeño para aprender la idea.
+
+Tenemos que migrar **100 productos**. Presupuestamos **USD 10 por producto**. El presupuesto completo es entonces **USD 1.000**.
+
+Llegó el viernes y el plan decía que ya debían estar migrados **50 productos**. Sin embargo, el equipo terminó **40** y gastó **USD 600**.
+
+Necesitamos mirar tres cosas por separado.
+
+#### Primero: qué deberíamos llevar hecho
+
+El plan decía 50 productos. Como presupuestamos USD 10 por producto:
+
+**50 × 10 = USD 500 de trabajo previsto.**
+
+Eso se llama **PV — Planned Value**, valor planificado. Es la respuesta a: **“Según el plan, ¿cuánto trabajo debía estar listo a esta fecha, medido a precio de presupuesto?”**
+
+#### Segundo: qué trabajo terminamos realmente
+
+Terminamos 40 productos. Los valoramos con los mismos USD 10 presupuestados:
+
+**40 × 10 = USD 400 de trabajo realizado.**
+
+Eso se llama **EV — Earned Value**, valor ganado. “Ganado” significa que completamos ese trabajo y podemos reconocer su valor presupuestado. No son ventas ni ganancias de la empresa.
+
+#### Tercero: cuánto pagamos por hacerlo
+
+El gasto fue de **USD 600**. Lo tomamos del registro real, no del plan.
+
+Eso se llama **AC — Actual Cost**, costo real.
+
+Antes de seguir, retené los tres números del ejemplo:
+
+- Debíamos tener **500** de trabajo hecho: **PV**.
+- Tenemos **400** de trabajo hecho: **EV**.
+- Para hacerlo gastamos **600**: **AC**.
+
+Esta comparación es la base del **Método del Valor Ganado**, llamado **EVM** por *Earned Value Management*. Expresamos el trabajo en dinero presupuestado para poder compararlo con el gasto. Los tres valores se miden en USD y corresponden a la misma fecha.
+
+Cuando el avance viene en porcentaje, hacemos lo mismo: una tarea presupuestada en USD 1.000 que está al 40 % tiene EV = 1.000 × 0,40 = USD 400.
+
+*Fuente: clase de medición, páginas 9–12 [T3].*
+
+#### Aplicación en Hogar Norte
 
 Al instante 6, A, B, C y F deberían estar y están terminadas. D empezó en el instante 5 y lleva una de cuatro semanas: su avance planificado es **25 %**. Como se migraron 12.000 de 60.000 productos, su avance real es **20 %**. Su gasto real es 12.000 × USD 0,60 = **USD 7.200**; su valor ganado usa el presupuesto de USD 0,50: 12.000 × 0,50 = **USD 6.000**.
 
@@ -678,30 +599,30 @@ E lleva planificada una de sus dos semanas: **50 %**, pero tiene **40 % real**. 
 
 I comienza en el instante 6, es decir, al **inicio de la semana 7**. Al cierre de la 6 tiene avance planificado cero. Que todavía no haya comenzado no es por sí solo un atraso al corte; el retraso de G sí pone en riesgo su inicio. J, K, L, M y N tampoco tenían trabajo previsto aún.
 
-#### 6.2. Presupuesto, valor ganado y gasto por actividad
+**Cómo tratamos dos datos del caso:** “contratación según lo previsto” se interpreta como terminada y con costo real de USD 4.000; “app según lo planificado” significa 80 % al corte. No se informan anticipos para actividades futuras.
 
-Cada fila aplica las mismas reglas: PV usa el avance planificado; EV, el avance real sobre el costo presupuestado; AC, el gasto informado. CV y SV permiten localizar qué actividad aporta cada desvío. En “Estructura”, los USD 18.000 corresponden al soporte de las seis semanas transcurridas, bajo el supuesto de nivel de esfuerzo explicado antes.
+**Cómo medimos estructura:** durante seis semanas se prestó el servicio de coordinación previsto. Reconocemos por eso USD 18.000 tanto de valor planificado como de valor ganado, además del costo real informado. Este supuesto se llama medición por **nivel de esfuerzo**: se reconoce el servicio de soporte durante el tiempo transcurrido. No demuestra que la migración técnica esté al día; al incluirlo, los índices globales se acercan a 1.
 
-| ID | Plan al corte | Real al corte | PV (USD) | EV (USD) | AC (USD) | CV (USD) | SV (USD) |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| A | 100% | 100% | 12.000 | 12.000 | 13.000 | -1.000 | 0 |
-| B | 100% | 100% | 4.000 | 4.000 | 4.000 | 0 | 0 |
-| C | 100% | 100% | 19.000 | 19.000 | 22.000 | -3.000 | 0 |
-| D | 25% | 20% | 7.500 | 6.000 | 7.200 | -1.200 | -1.500 |
-| E | 50% | 40% | 8.000 | 6.400 | 7.000 | -600 | -1.600 |
-| F | 100% | 100% | 15.000 | 15.000 | 14.000 | 1.000 | 0 |
-| G | 100% | 75% | 32.000 | 24.000 | 30.000 | -6.000 | -8.000 |
-| H | 80% | 80% | 32.000 | 32.000 | 36.000 | -4.000 | 0 |
-| I | 0% | 0% | 0 | 0 | 0 | 0 | 0 |
-| J | 0% | 0% | 0 | 0 | 0 | 0 | 0 |
-| K | 0% | 0% | 0 | 0 | 0 | 0 | 0 |
-| L | 0% | 0% | 0 | 0 | 0 | 0 | 0 |
-| M | 0% | 0% | 0 | 0 | 0 | 0 | 0 |
-| N | 0% | 0% | 0 | 0 | 0 | 0 | 0 |
-| Estructura | 6 sem. | 6 sem. | 18.000 | 18.000 | 18.000 | 0 | 0 |
-| **Total** | — | — | 147.500 | 136.400 | 151.200 | -14.800 | -11.100 |
+Cada fila usa el presupuesto para valorar el avance y el gasto informado para registrar AC. Todavía no comparamos las diferencias: primero obtenemos los tres totales.
 
-Sumas desarrolladas para comprobar:
+| ID | Plan al corte | Real al corte | PV (USD) | EV (USD) | AC (USD) |
+| --- | --- | --- | --- | --- | --- |
+| A | 100% | 100% | 12.000 | 12.000 | 13.000 |
+| B | 100% | 100% | 4.000 | 4.000 | 4.000 |
+| C | 100% | 100% | 19.000 | 19.000 | 22.000 |
+| D | 25% | 20% | 7.500 | 6.000 | 7.200 |
+| E | 50% | 40% | 8.000 | 6.400 | 7.000 |
+| F | 100% | 100% | 15.000 | 15.000 | 14.000 |
+| G | 100% | 75% | 32.000 | 24.000 | 30.000 |
+| H | 80% | 80% | 32.000 | 32.000 | 36.000 |
+| I | 0% | 0% | 0 | 0 | 0 |
+| J | 0% | 0% | 0 | 0 | 0 |
+| K | 0% | 0% | 0 | 0 | 0 |
+| L | 0% | 0% | 0 | 0 | 0 |
+| M | 0% | 0% | 0 | 0 | 0 |
+| N | 0% | 0% | 0 | 0 | 0 |
+| Estructura | 6 sem. | 6 sem. | 18.000 | 18.000 | 18.000 |
+| **Total** | — | — | 147.500 | 136.400 | 151.200 |
 
 **PV = 12.000 + 4.000 + 19.000 + 7.500 + 8.000 + 15.000 + 32.000 + 32.000 + 18.000 = USD 147.500.**
 
@@ -709,10 +630,102 @@ Sumas desarrolladas para comprobar:
 
 **AC = 13.000 + 4.000 + 22.000 + 7.200 + 7.000 + 14.000 + 30.000 + 36.000 + 18.000 = USD 151.200.**
 
-#### 6.3. Variaciones e índices, con interpretación
+### 5.2. Calcular las diferencias en dólares
+
+#### Teoría
+
+Sigamos con los mismos 100 productos. No hace falta aprender otro ejemplo.
+
+#### ¿Nos costó más de lo previsto hacer el trabajo terminado?
+
+Terminamos trabajo que habíamos presupuestado en **400**, pero gastamos **600**.
+
+**400 − 600 = −USD 200.**
+
+El signo negativo señala que el costo fue desfavorable: producir ese trabajo costó 200 más que su presupuesto.
+
+La cuenta se llama **CV — Cost Variance**, variación de costo:
+
+**CV = EV − AC.**
+
+#### ¿Terminamos todo lo que tocaba para el viernes?
+
+Teníamos que llegar a **500** de trabajo, pero llegamos a **400**.
+
+**400 − 500 = −USD 100.**
+
+Nos faltó completar trabajo que valía 100 según el presupuesto. La cuenta se llama **SV — Schedule Variance**, variación del cronograma:
+
+**SV = EV − PV.**
+
+Aunque habla del cronograma, **SV está en dólares**. Nos dice cuánto trabajo quedó pendiente frente al plan. Para saber cuántas semanas se moverá el proyecto, tenemos que volver a las tareas y al camino crítico.
+
+*Fuente: clase de medición, página 15 [T3].*
+
+#### Aplicación en Hogar Norte
 
 - **CV = 136.400 − 151.200 = −USD 14.800.** El trabajo realizado costó 14.800 más que su valor presupuestado. No es la diferencia entre gasto y plan temporal.
 - **SV = 136.400 − 147.500 = −USD 11.100.** Falta trabajo que a esta fecha debía haber ganado 11.100 de presupuesto. Se expresa en dinero, no en semanas.
+
+La tabla permite localizar de dónde sale cada diferencia:
+
+| ID | CV (USD) | SV (USD) |
+| --- | --- | --- |
+| A | -1.000 | 0 |
+| B | 0 | 0 |
+| C | -3.000 | 0 |
+| D | -1.200 | -1.500 |
+| E | -600 | -1.600 |
+| F | 1.000 | 0 |
+| G | -6.000 | -8.000 |
+| H | -4.000 | 0 |
+| I | 0 | 0 |
+| J | 0 | 0 |
+| K | 0 | 0 |
+| L | 0 | 0 |
+| M | 0 | 0 |
+| N | 0 | 0 |
+| Estructura | 0 | 0 |
+| **Total** | -14.800 | -11.100 |
+
+### 5.3. Medir la eficiencia y el avance relativo
+
+#### Teoría
+
+Las diferencias anteriores dicen cuántos dólares nos desviamos. Ahora queremos medir la proporción.
+
+#### Cuánto trabajo conseguimos por cada dólar gastado
+
+Gastamos 600 y conseguimos 400 de trabajo presupuestado:
+
+**400 / 600 = 0,6667.**
+
+Por cada dólar gastado conseguimos aproximadamente **USD 0,67 de trabajo que habíamos presupuestado**. Queríamos conseguir uno; obtuvimos menos.
+
+Esta medida se llama **CPI — Cost Performance Index**, índice de desempeño del costo:
+
+**CPI = EV / AC.**
+
+#### Qué parte del trabajo previsto alcanzamos
+
+Llegamos a 400 de los 500 previstos:
+
+**400 / 500 = 0,80.**
+
+Hicimos el **80 % del valor de trabajo que debíamos tener listo para ese viernes**.
+
+Esta medida se llama **SPI — Schedule Performance Index**, índice de desempeño del cronograma:
+
+**SPI = EV / PV.**
+
+En los dos índices, **1 significa coincidir con la referencia**. Menos de 1 indica una situación desfavorable; más de 1, favorable. Son proporciones, sin unidad.
+
+En este ejemplo SPI = 0,80 no permite afirmar “vamos a tardar 20 % más de semanas”. Quizá lo que falta tiene margen; quizá está en la ruta que bloquea todo. Hay que mirar la red.
+
+*Fuente: clase de medición, páginas 17–18 [T3].*
+
+#### Aplicación en Hogar Norte
+
 - **CPI = 136.400 / 151.200 = 0,902116… ≈ 0,9021.** Cada USD 1 gastado generó aproximadamente USD 0,9021 de trabajo presupuestado.
 - **SPI = 136.400 / 147.500 = 0,924745… ≈ 0,9247.** Se ganó aproximadamente el 92,47 % del valor que debía haberse ganado al corte.
 
@@ -724,7 +737,7 @@ La suma del atraso valorizado es **1.500 en catálogo + 1.600 en clientes + 8.00
 
 No se dibujan curvas reales históricas de EV y AC: el caso solo da el estado acumulado al cierre de la semana 6. Los gráficos comparan ese corte, como el gráfico de barras de la clase 6, página 14. Interpolar una historia real semana por semana inventaría datos.
 
-#### 6.4. Qué compromete la fecha final
+### 5.4. Aplicar la lectura del camino crítico al estado real
 
 **Catálogo D: prioridad por estar en el camino crítico.** Debían haberse migrado 15.000 productos y se migraron 12.000: faltan 3.000 frente al plan. Su holgura interna es cero. Para cerrar al final de la semana 9 quedan tres semanas y 48.000 productos: se necesitarían **16.000 productos por semana**, por encima tanto del ritmo observado de 12.000 como del nominal de 15.000. Esa capacidad adicional exige validar recursos, herramienta y costo; no se la supone gratis.
 
@@ -738,7 +751,29 @@ Si después del corte se recuperara el ritmo nominal de 15.000 por semana, falta
 
 **Acción propuesta:** revisar primero capacidad y calidad de migración del catálogo; asegurar el cierre del 25 % pendiente de web y preparar la integración; comprobar que clientes termine antes de pruebas. Registrar cualquier recuperación con recursos, riesgo y costo. No cambiar las dependencias obligatorias de seguridad ni lanzar campaña antes de ambas publicaciones para aparentar cumplimiento.
 
-### Paso 7. Costo final, dinero restante y eficiencia requerida — consigna 7
+## 6. Pronóstico de costo y dinero pendiente · consigna 7
+
+Ya conocemos lo que pasó hasta la semana 6. Ahora queremos estimar qué puede pasar hasta el final. Para entender cada cuenta, retomamos primero el catálogo pequeño de 100 productos y después usamos los datos de Hogar Norte.
+
+### 6.1. Estimar el costo total final: EAC
+
+#### Teoría
+
+En el ejemplo pequeño el presupuesto era USD 1.000. Terminamos trabajo por USD 400 y gastamos USD 600: hicimos el 40 % del trabajo. CPI = 400 / 600. Retomamos esos mismos datos para aprender a proyectar el costo.
+
+Con los 600 gastados hicimos el 40 % del trabajo. Si el resto cuesta al mismo ritmo, hacer el 100 % costaría:
+
+**600 / 0,40 = USD 1.500.**
+
+A ese total pronosticado lo llamamos **EAC — Estimate at Completion**, estimación a la conclusión.
+
+También se obtiene dividiendo el presupuesto total por la eficiencia observada: **EAC = BAC / CPI**. En el ejemplo: 1.000 / (400 / 600) = 1.500.
+
+Esta fórmula supone que la eficiencia de costo se mantiene. Si corregimos la causa del sobrecosto, el futuro puede cambiar. El pronóstico no es una autorización para gastar más.
+
+*Fuente: clase de medición, página 21 [T3].*
+
+#### Aplicación en Hogar Norte
 
 Aplicamos el método de continuidad del CPI que enseña la clase. Aunque mostremos cuatro decimales en la explicación, para calcular se usa la fracción exacta **136.400 / 151.200**.
 
@@ -746,19 +781,79 @@ Aplicamos el método de continuidad del CPI que enseña la clase. Aunque mostrem
 
 Es el costo total proyectado si persiste la eficiencia actual. **No** es el dinero adicional que falta gastar: incluye lo ya consumido.
 
+### 6.2. Estimar cuánto falta gastar: ETC
+
+#### Teoría
+
+De esos 1.500 totales, ya gastamos 600:
+
+**1.500 − 600 = USD 900 pendientes de gastar.**
+
+Eso es **ETC — Estimate to Complete**, estimación para completar:
+
+**ETC = EAC − AC.**
+
+*Fuente: clase de medición, página 22 [T3].*
+
+#### Aplicación en Hogar Norte
+
 **ETC = EAC − AC = 317.032,258064… − 151.200 = USD 165.832,26.**
 
 Este es el dinero que se estima necesario para terminar desde el corte. Comprobación equivalente: trabajo pendiente a presupuesto = BAC − EV = 286.000 − 136.400 = **USD 149.600**. Si cuesta más producirlo por la ineficiencia observada, ETC = 149.600 / CPI = **USD 165.832,26**.
 
+### 6.3. Estimar cuánto excedería al presupuesto: VAC
+
+#### Teoría
+
+Habíamos presupuestado 1.000 y ahora estimamos terminar en 1.500:
+
+**1.000 − 1.500 = −USD 500.**
+
+Eso es **VAC — Variance at Completion**, variación a la conclusión:
+
+**VAC = BAC − EAC.**
+
+No confundas esos dos resultados: **900** es lo que falta gastar; **500** es lo que excedería al presupuesto original.
+
+*Fuente: clase de medición, página 22 [T3].*
+
+#### Aplicación en Hogar Norte
+
 **VAC = BAC − EAC = 286.000 − 317.032,258064… = −USD 31.032,26.**
 
 Se proyecta un exceso total de **USD 31.032,26**, aproximadamente **10,85 %** del presupuesto original. Este exceso es distinto de los USD 165.832,26 que faltan gastar.
+
+### 6.4. Calcular qué eficiencia exigiría el presupuesto: TCPI
+
+#### Teoría
+
+Nos falta trabajo que habíamos presupuestado en **1.000 − 400 = 600**.
+
+Pero del presupuesto original solo queda dinero por **1.000 − 600 = 400**.
+
+Para cumplir el presupuesto tendríamos que producir esos 600 de trabajo con solo 400 de dinero:
+
+**600 / 400 = 1,50.**
+
+Es decir: por cada dólar que gastemos desde ahora, deberíamos conseguir **USD 1,50 de trabajo presupuestado**. Hasta ahora conseguíamos apenas 0,67. Haría falta una mejora muy importante.
+
+Esta exigencia se llama **TCPI — To-Complete Performance Index**, índice de desempeño del trabajo por completar:
+
+**TCPI = (BAC − EV) / (BAC − AC).**
+
+Arriba va el **trabajo pendiente**, medido a presupuesto. Abajo va el **dinero que queda**. El resultado describe la eficiencia que necesitaríamos, no la que ya tenemos.
+
+*Fuente: clase de medición, páginas 20–23 [T3].*
+
+#### Aplicación en Hogar Norte
 
 Para terminar dentro del presupuesto todavía quedarían **BAC − AC = 286.000 − 151.200 = USD 134.800**. Con ese dinero habría que producir USD 149.600 de trabajo presupuestado:
 
 **TCPI = (BAC − EV) / (BAC − AC) = 149.600 / 134.800 = 1,109792… ≈ 1,1098.**
 
 El trabajo restante tendría que generar aproximadamente USD 1,1098 de valor presupuestado por cada dólar gastado, frente a los USD 0,9021 logrados hasta ahora. Es una mejora relativa de eficiencia de aproximadamente **23,02 %**: (1,109792… / 0,902116… − 1) × 100. El índice mayor que 1 expresa una exigencia futura; no significa que ya se esté logrando esa eficiencia. El cálculo no prueba que la mejora sea factible.
+
+### 6.5. Resumen de los pronósticos y sus límites
 
 | Pregunta de gestión | Resultado |
 | --- | --- |
@@ -771,7 +866,35 @@ El trabajo restante tendría que generar aproximadamente USD 1,1098 de valor pre
 
 **Límite del pronóstico:** el EAC no calcula automáticamente una nueva fecha ni agrega por separado las semanas adicionales de estructura. Ya extrapola la ineficiencia global. Si se construye un nuevo cronograma operativo, habrá que reestimar sus costos restantes, incluidas las nuevas semanas de estructura, y reconciliar ese pronóstico con este. No se deben sumar indiscriminadamente ambos modelos, porque podría duplicarse el efecto del atraso.
 
-### Paso 8. Matriz RACIS — consigna 8
+## 7. Responsabilidades · consigna 8
+
+Además de tiempo y dinero, tenemos que aclarar quién hace cada trabajo y quién responde por su resultado.
+
+### 7.1. Asignar las letras RACIS
+
+#### Teoría
+
+Volvamos a Hogar Norte. En una contratación participan varias personas, pero no todas hacen lo mismo.
+
+El líder de Infraestructura negocia. Seguridad revisa las cláusulas. El gerente firma. El director del proyecto responde por que la actividad salga bien.
+
+Para dejar claras esas diferencias usamos la **matriz RACIS**. Es una tabla: cada fila es una actividad; cada columna, un rol. La letra de la celda explica cómo participa ese rol.
+
+- **R — Responsible, responsable de ejecutar:** hace el trabajo. En la contratación, Infraestructura.
+- **A — Accountable, quien rinde cuentas:** responde por el resultado. En esa contratación, el director del proyecto.
+- **C — Consulted, consultado:** aporta una opinión que se necesita para trabajar o decidir. En esa contratación, Seguridad.
+- **I — Informed, informado:** recibe novedades o resultados. Por ejemplo, en el diseño de arquitectura, el gerente recibe el diseño final.
+- **S — Sign, firma:** tiene que firmar el documento. En la contratación, el gerente general.
+
+La diferencia central es **hacer, responder y firmar**. Pueden corresponder a personas distintas.
+
+Al revisar cada fila buscamos **un solo A**, para que esté claro quién rinde cuentas, y **al menos un R**, para que el trabajo tenga ejecutor.
+
+En el caso, el director del proyecto tiene A como regla general. Pero hay dos excepciones expresas: **el gerente general responde por la campaña y por la presentación final**. Al completar esas filas seguimos lo que dice el caso.
+
+*Fuente: clase de equipo e interesados, páginas 20–21 y 24–25 [T4].*
+
+#### Aplicación en Hogar Norte
 
 Se usan exactamente los seis roles pedidos y las ocho actividades indicadas. **— significa que el caso no asigna una participación para esa combinación**, no que la persona tenga prohibido intervenir. El equipo ejecutor se representa bajo su líder, pues son las columnas requeridas.
 
@@ -799,9 +922,9 @@ Lectura razonada de cada fila:
 
 Comprobación: cada fila tiene exactamente **un A** y al menos **un R**. Solo hay S en contratación, pruebas y puesta en producción, donde el caso pide contrato, certificado y acta firmados. El Directorio recibe la presentación, pero no se agrega como séptima columna porque la consigna requiere seis roles.
 
-## 4. Comprobaciones y preguntas para estudiar
+## 8. Comprobaciones y preguntas para estudiar
 
-### 4.1. Verificaciones realizadas
+### 8.1. Verificaciones realizadas
 
 - Se preservó el PDF original sin alterar su contenido; los datos se contrastaron con sus tres páginas.
 - Las duraciones, dependencias y costos se calcularon por actividad. Se verificó que cada sucesora empiece después del fin temprano de todas sus predecesoras y que las dos fórmulas de holgura coincidan.
@@ -811,7 +934,7 @@ Comprobación: cada fila tiene exactamente **un A** y al menos **un R**. Solo ha
 - Se revisó que cada fila RACIS tenga un único A, al menos un R y firmas respaldadas por la consigna.
 - Se compararon visualmente los moldes originales de nodos, Gantt, flujo de costos y matriz con los usados aquí. Se revisó la versión HTML renderizada, sus fórmulas, gráficos, tablas y navegación. Las tablas anchas admiten desplazamiento horizontal para conservar tamaño de lectura.
 
-### 4.2. Preguntas para comprobar comprensión
+### 8.2. Preguntas para comprobar comprensión
 
 **¿Por qué la campaña no empieza en semana 13 si la app ya está publicada?** Porque falta terminar la puesta en producción de la tienda, que ocupa también la semana 13. La campaña necesita ambas condiciones y empieza en la 14.
 
@@ -829,9 +952,9 @@ Comprobación: cada fila tiene exactamente **un A** y al menos **un R**. Solo ha
 
 **¿Un pronóstico mayor que el presupuesto autoriza a gastar más?** No. Revela la necesidad de una decisión: evaluar recuperación, riesgos, recursos y autorización de cambios. El BAC permanece como referencia hasta que se apruebe modificarlo.
 
-## 5. Fuentes y trazabilidad
+## 9. Fuentes y trazabilidad
 
-Los números de página siguientes corresponden a la posición de página del PDF original, contada desde 1. Los originales se consultaron para las definiciones y fórmulas, y se inspeccionaron visualmente los modelos utilizados. Las explicaciones y los ejemplos pequeños, incluido el catálogo de 100 productos usado para aprender valor ganado y pronósticos, son elaboración de esta resolución. Los datos del caso real se conservan en el desarrollo de las ocho consignas.
+Los números de página siguientes corresponden a la posición de página del PDF original, contada desde 1. Los originales se consultaron para las definiciones y fórmulas, y se inspeccionaron visualmente los modelos utilizados. Las explicaciones y los ejemplos pequeños intercalados con la práctica, incluido el catálogo de 100 productos usado para aprender valor ganado y pronósticos, son elaboración de esta resolución. Los datos del caso real se conservan en el desarrollo de las ocho consignas.
 
 - **[E] Consigna:** [Ejercicio DPI: Migración del e-commerce de Hogar Norte](Ejercicio_DPI_Migracion_Ecommerce_Hogar_Norte.pdf). Página 1: contexto, infraestructura, migraciones y diseño; página 2: desarrollos, integración, pruebas, publicación, campaña, cierre y estructura; página 3: estado en semana 6 y consignas 6–8.
 - **[T1] Plazos:** [04_DPI_Clase4_Dominio_Planificacion_Plazos.pdf](../../theory/course_material/04_DPI_Clase4_Dominio_Planificacion_Plazos.pdf). Páginas 7–9: actividad e hito; 16 y 18: red y dependencias; 19 y 21: formato de nodo y holgura; 26–28: camino crítico y recorridos; 29–30: Gantt. Se inspeccionaron los diseños de las páginas 19, 21, 26, 29 y 30.
