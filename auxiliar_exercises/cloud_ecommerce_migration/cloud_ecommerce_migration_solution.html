@@ -23,17 +23,25 @@ button{font:inherit;border:1px solid var(--line);border-radius:7px;background:wh
 <body><header><p><strong>DPI · Material de práctica</strong><br><span>Hogar Norte · teoría, método, resolución y comprobaciones</span></p><button type="button" onclick="window.print()">Imprimir / guardar como PDF</button></header>
 <div class="layout"><aside aria-label="Índice de contenidos"><strong>Recorrido de estudio</strong><div class="toc">
 <ul>
-<li><a href="#1-introduccion-teorica-que-estamos-tratando-de-medir">1. Introducción teórica: qué estamos tratando de medir</a><ul>
-<li><a href="#11-del-trabajo-al-tiempo-del-tiempo-al-dinero">1.1. Del trabajo al tiempo, del tiempo al dinero</a></li>
-<li><a href="#12-estimar-un-costo-no-es-adivinarlo">1.2. Estimar un costo no es adivinarlo</a></li>
-<li><a href="#13-como-leer-una-red-y-encontrar-el-trabajo-que-no-puede-atrasarse">1.3. Cómo leer una red y encontrar el trabajo que no puede atrasarse</a></li>
-<li><a href="#14-del-gantt-a-la-linea-base-de-costos">1.4. Del Gantt a la línea base de costos</a></li>
-<li><a href="#15-como-controlar-sin-confundir-gaste-con-avance">1.5. Cómo controlar sin confundir “gasté” con “avancé”</a></li>
-<li><a href="#16-pronosticar-no-es-cambiar-el-presupuesto-aprobado">1.6. Pronosticar no es cambiar el presupuesto aprobado</a></li>
-<li><a href="#17-quien-hace-responde-opina-recibe-informacion-y-firma">1.7. Quién hace, responde, opina, recibe información y firma</a></li>
+<li><a href="#1-entender-el-ejercicio-antes-de-calcular">1. Entender el ejercicio antes de calcular</a><ul>
+<li><a href="#11-empecemos-por-separar-el-trabajo">1.1. Empecemos por separar el trabajo</a></li>
+<li><a href="#12-cuatro-semanas-y-640-horas-como-pueden-ser-ciertas-las-dos-cosas">1.2. Cuatro semanas y 640 horas: ¿cómo pueden ser ciertas las dos cosas?</a></li>
+<li><a href="#13-tres-maneras-de-llegar-a-un-costo">1.3. Tres maneras de llegar a un costo</a></li>
+<li><a href="#14-por-que-no-podemos-sumar-todas-las-duraciones">1.4. ¿Por qué no podemos sumar todas las duraciones?</a></li>
+<li><a href="#15-cuando-puede-empezar-una-tarea-y-cuanto-puede-esperar">1.5. Cuándo puede empezar una tarea y cuánto puede esperar</a></li>
+<li><a href="#16-pasar-el-plan-a-un-calendario-el-gantt">1.6. Pasar el plan a un calendario: el Gantt</a></li>
+<li><a href="#17-no-solo-importa-cuanto-cuesta-tambien-cuando-lo-vamos-a-gastar">1.7. No solo importa cuánto cuesta: también cuándo lo vamos a gastar</a></li>
+<li><a href="#18-el-punto-mas-importante-gastar-dinero-no-demuestra-que-el-trabajo-avanzo">1.8. El punto más importante: gastar dinero no demuestra que el trabajo avanzó</a></li>
+<li><a href="#19-dos-comparaciones-para-saber-que-salio-mal">1.9. Dos comparaciones para saber qué salió mal</a></li>
+<li><a href="#110-dos-divisiones-para-medir-que-tan-bien-venimos">1.10. Dos divisiones para medir qué tan bien venimos</a></li>
+<li><a href="#111-si-seguimos-trabajando-asi-cuanto-dinero-va-a-hacer-falta">1.11. Si seguimos trabajando así, ¿cuánto dinero va a hacer falta?</a></li>
+<li><a href="#112-a-quien-le-toca-hacer-cada-cosa">1.12. A quién le toca hacer cada cosa</a></li>
 </ul>
 </li>
-<li><a href="#2-metodo-de-resolucion-y-supuestos-que-hacen-falta">2. Método de resolución y supuestos que hacen falta</a></li>
+<li><a href="#2-metodo-de-resolucion-y-supuestos-que-hacen-falta">2. Método de resolución y supuestos que hacen falta</a><ul>
+<li><a href="#acuerdos-de-calculo-para-este-caso">Acuerdos de cálculo para este caso</a></li>
+</ul>
+</li>
 <li><a href="#3-resolucion-paso-a-paso">3. Resolución paso a paso</a><ul>
 <li><a href="#paso-1-lista-de-actividades-y-estimacion-de-costos-consigna-1">Paso 1. Lista de actividades y estimación de costos — consigna 1</a></li>
 <li><a href="#paso-2-calculo-de-tiempos-y-red-aon-consigna-2">Paso 2. Cálculo de tiempos y red AON — consigna 2</a></li>
@@ -55,163 +63,269 @@ button{font:inherit;border:1px solid var(--line);border-radius:7px;background:wh
 </div>
 </aside><main id="contenido"><h1 id="hogar-norte-migracion-del-comercio-electronico-a-la-nube">Hogar Norte: migración del comercio electrónico a la nube</h1>
 <p>Material de estudio y resolución guiada de las ocho consignas. Tiempo en <strong>semanas</strong> y dinero en <strong>dólares estadounidenses (USD)</strong>. Se conserva el <a href="Ejercicio_DPI_Migracion_Ecommerce_Hogar_Norte.pdf">PDF original</a> y una <a href="exercise_prompt.md">transcripción de consulta</a>.</p>
-<p>La planificación termina al cierre de la <strong>semana 17</strong>, una semana antes del límite de 18. El costo presupuestado total es <strong>USD 286.000</strong>. Al cierre de la semana 6 hay menos trabajo terminado que el previsto y el trabajo realizado costó más que su presupuesto. Si se mantiene esa eficiencia, el costo final estimado es <strong>USD 317.032,26</strong>. A continuación se explica de dónde sale cada resultado y qué supuestos necesita.</p>
-<h2 id="1-introduccion-teorica-que-estamos-tratando-de-medir">1. Introducción teórica: qué estamos tratando de medir</h2>
-<h3 id="11-del-trabajo-al-tiempo-del-tiempo-al-dinero">1.1. Del trabajo al tiempo, del tiempo al dinero</h3>
-<p>Migrar una tienda no consiste en una única tarea: hay que contratar, preparar infraestructura, trasladar datos, desarrollar, probar y publicar. Una <strong>actividad</strong> es una porción de trabajo con una duración, un costo y un resultado identificable. Una <strong>predecesora</strong> es una actividad que impone una condición para ejecutar otra. Por ejemplo, primero debe estar firmado el contrato y después puede aprovisionarse la nube. Un <strong>hito</strong> marca un acontecimiento, como una autorización, sin duración propia. Estas definiciones y atributos se presentan en la clase de plazos, páginas 7–9 [T1].</p>
-<p>La <strong>duración</strong> mide cuánto tiempo de calendario relativo ocupa una actividad; el <strong>esfuerzo</strong> mide cuánto trabajo humano requiere. No son lo mismo: 640 horas de trabajo distribuidas entre varias personas pueden realizarse en cuatro semanas. Tampoco las horas de trabajo son dólares: para convertirlas a costo hay que aplicar una tarifa por hora. Esta distinción se obtiene aquí de las unidades de la propia consigna (página 2): informa por separado horas de trabajo y semanas de duración; no se atribuye a una definición textual de las diapositivas.</p>
-<p>En el enunciado, <strong>cloud</strong> significa infraestructura informática en la nube; <strong>e-commerce</strong>, comercio electrónico; <strong>UX</strong>, <em>User Experience</em> o experiencia de usuario; <strong>UI</strong>, <em>User Interface</em> o interfaz de usuario. El rediseño UX/UI define cómo se utiliza y cómo se ve la tienda y la aplicación. Una <strong>app</strong> es una aplicación móvil. <strong>Go-live</strong> es la puesta en producción: el momento y el proceso por el que el sistema comienza a atender usuarios reales. Son aclaraciones de vocabulario del caso, no nuevas exigencias técnicas.</p>
-<h3 id="12-estimar-un-costo-no-es-adivinarlo">1.2. Estimar un costo no es adivinarlo</h3>
-<p>Una <strong>estimación</strong> es una evaluación cuantitativa del costo probable, no una garantía de precio final. Puede ser puntual, si presenta un solo valor, o multipunto, si incorpora varios escenarios. Fuentes: clase de costos, páginas 8, 10 y 11 [T2].</p>
+<p>La guía tiene tres partes: <strong>entender las herramientas</strong>, <strong>ver cómo se conectan</strong> y <strong>resolver el caso completo</strong>.</p>
+<p>Para una primera lectura, avanzá hasta el apartado 1.7: ahí aprendemos a organizar las tareas, calcular el tiempo y repartir el presupuesto. Después, los apartados 1.8–1.11 usan <strong>un mismo catálogo pequeño de 100 productos</strong> para entender el control de costos sin mezclar de entrada todos los números del proyecto. El último apartado explica las responsabilidades.</p>
+<p>En la resolución vas a encontrar las ocho consignas completas, con sus tablas y gráficos. Las referencias [T1] a [T4] remiten a las clases originales, enlazadas al final.</p>
+<h2 id="1-entender-el-ejercicio-antes-de-calcular">1. Entender el ejercicio antes de calcular</h2>
+<p>Hogar Norte quiere renovar su tienda por Internet, publicar una <strong>app (aplicación móvil)</strong> y hacer publicidad para relanzar las ventas. También quiere mover la tienda a la <strong>nube</strong>, llamada <em>cloud</em> en la consigna: usar servidores de un proveedor en lugar de los servidores propios que tiene hoy.</p>
+<p>Nos toca organizar ese trabajo y contestar tres preguntas:</p>
+<ol>
+<li><strong>¿Llegamos a terminar a tiempo?</strong> El Directorio permite hasta 18 semanas.</li>
+<li><strong>¿Cuánto dinero vamos a necesitar?</strong> Hay que pagar tanto las tareas como la coordinación del proyecto.</li>
+<li><strong>Cuando el trabajo ya empezó, ¿cómo sabemos si vamos bien?</strong> No alcanza con mirar cuánto se gastó: también hay que mirar qué se terminó.</li>
+</ol>
+<p>Vamos a construir las herramientas para responderlas. Primero con ejemplos pequeños; después las aplicamos a los números completos del caso. Los ejemplos pequeños son explicaciones creadas para estudiar, no datos adicionales de la consigna.</p>
+<h3 id="11-empecemos-por-separar-el-trabajo">1.1. Empecemos por separar el trabajo</h3>
+<p>Imaginá que te dicen: “Hacé la migración”. Con esa frase todavía no podés organizar nada. Necesitás separar qué hay que hacer.</p>
+<p>En el caso, por ejemplo, hay que:</p>
 <ul>
-<li><strong>Estimación análoga:</strong> usa el costo de una experiencia anterior comparable. Aquí, el rediseño de Uruguay es la referencia del nuevo rediseño. Sin datos de diferencias de alcance o inflación, se utiliza el valor informado y se reconoce ese límite.</li>
-<li><strong>Estimación paramétrica:</strong> multiplica una cantidad de trabajo por un costo unitario. Por ejemplo, 100 productos a USD 0,50 por producto cuestan USD 50. Las unidades “producto” se cancelan y queda dinero.</li>
-<li><strong>Estimación multipunto PERT:</strong> PERT corresponde a <em>Program Evaluation and Review Technique</em>, técnica de evaluación y revisión de programas. En este ejercicio se aplica a costos: combina un costo <strong>optimista</strong>, uno <strong>más probable</strong> y uno <strong>pesimista</strong>. Llamaremos <strong>O</strong>, <strong>m</strong> y <strong>P</strong> a esos importes, todos en USD. La fórmula es <strong>costo esperado = (O + 4 × m + P) / 6</strong>. El valor más probable recibe cuatro veces el peso de cada extremo; los pesos suman seis. No es la media simple de tres números y no es una reserva adicional.</li>
+<li>Diseñar la nueva infraestructura.</li>
+<li>Contratar al proveedor.</li>
+<li>Preparar los servidores y las redes.</li>
+<li>Pasar los productos a la nueva tienda.</li>
 </ul>
-<p>Mini ejemplo didáctico: si O = 100, m = 130 y P = 180, el costo PERT es (100 + 4 × 130 + 180) / 6 = USD 133,33. La asimetría del escenario caro eleva el resultado por encima de 130. Este ejemplo se creó para explicar la fórmula de la clase; no pertenece al enunciado.</p>
-<p>Si el caso solo informa “cuesta USD 12.000”, conocemos una <strong>estimación puntual dada</strong>, pero no sabemos si provino de juicio experto, una cotización o un cálculo detallado. No corresponde inventar su origen. Sumar luego todos los costos individuales es una <strong>agregación del presupuesto</strong>, no una prueba de que cada costo se haya estimado de manera ascendente.</p>
-<h3 id="13-como-leer-una-red-y-encontrar-el-trabajo-que-no-puede-atrasarse">1.3. Cómo leer una red y encontrar el trabajo que no puede atrasarse</h3>
-<p>Una red <strong>AON</strong>, <em>Activity on Node</em> o actividad en el nodo, representa actividades mediante cajas y dependencias mediante flechas. Cada flecha significa una condición de precedencia, no una semana ni un costo. Una relación <strong>FS</strong>, <em>Finish to Start</em> o fin a inicio, permite iniciar la sucesora cuando termina la predecesora. En este caso todas las relaciones modeladas son FS sin espera adicional. Fuente: clase de plazos, páginas 16, 18 y 19 [T1].</p>
-<p>Un <strong>camino</strong> es una secuencia continua de actividades desde el inicio hasta el fin de la red. El <strong>camino crítico</strong> es el de mayor duración: fija el tiempo mínimo del proyecto con esas duraciones y dependencias. Si una de sus actividades se demora y no se compensa la demora, se retrasa el cierre. El <strong>método del camino crítico</strong>, <strong>CPM</strong> por <em>Critical Path Method</em>, permite calcularlo. Fuentes: páginas 21 y 26–28 [T1].</p>
-<p>Antes de leer los nodos, definimos sus cuatro tiempos. Todos se miden en <strong>semanas transcurridas desde el inicio</strong>, que es el instante 0:</p>
-<div class="table-scroll" role="region" aria-label="Tabla de estudio; desplazar horizontalmente si hace falta" tabindex="0"><table>
-<thead>
-<tr>
-<th>Símbolo</th>
-<th>Nombre original y traducción</th>
-<th>Qué responde</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>ES</td>
-<td>Early Start, inicio temprano</td>
-<td>¿Cuándo puede comenzar como muy pronto?</td>
-</tr>
-<tr>
-<td>LS</td>
-<td>Late Start, inicio tardío</td>
-<td>¿Hasta cuándo puede posponer su inicio sin mover el fin calculado?</td>
-</tr>
-<tr>
-<td>EF</td>
-<td>Early Finish, fin temprano</td>
-<td>¿Cuándo termina si empieza en ES?</td>
-</tr>
-<tr>
-<td>LF</td>
-<td>Late Finish, fin tardío</td>
-<td>¿Hasta cuándo puede terminar sin mover el fin calculado?</td>
-</tr>
-</tbody>
-</table></div>
-<p>La <strong>holgura total</strong> es el margen de una actividad respecto del fin calculado: <strong>LS − ES = LF − EF</strong>, en semanas. No se suman las holguras de dos actividades consecutivas como si fueran reservas independientes: pueden compartir el mismo margen de una rama.</p>
-<p>El <strong>paso adelante</strong> recorre la red desde el inicio. Para cada actividad, <strong>ES = máximo de los EF de sus predecesoras</strong> y <strong>EF = ES + duración</strong>. Se usa el máximo porque necesita que hayan terminado <strong>todas</strong> sus predecesoras. Sin predecesoras, ES = 0.</p>
-<p>El <strong>paso atrás</strong> parte del fin calculado. Para cada actividad, <strong>LF = mínimo de los LS de sus sucesoras</strong> y <strong>LS = LF − duración</strong>. Se usa el mínimo porque no puede bloquear a <strong>ninguna</strong> de sus sucesoras. Para la última actividad, LF coincide con el fin del proyecto.</p>
-<p>Mini ejemplo didáctico: dos predecesoras terminan en 5 y 7. Una tarea de dos semanas que necesita a ambas comienza en máximo(5, 7) = 7 y termina en 9. Si debe finalizar como máximo en 10, LS = 10 − 2 = 8 y su holgura es 8 − 7 = una semana.</p>
-<p>El <strong>diagrama de Gantt</strong> coloca las actividades en filas y el tiempo en columnas; la longitud y ubicación de cada barra muestran duración e inicio. Es otra vista del mismo cronograma, no un nuevo conjunto de fechas. Fuente: páginas 29–30 [T1].</p>
-<h3 id="14-del-gantt-a-la-linea-base-de-costos">1.4. Del Gantt a la línea base de costos</h3>
-<p>El <strong>costo directo</strong> puede asignarse a una actividad concreta; el <strong>costo de estructura</strong> sostiene el proyecto en conjunto, como coordinación, herramientas y seguros. Aquí se lo presenta separado para evitar cargarlo dos veces. Fuente conceptual: clase de costos, página 9 [T2]; importes y cambio de tarifa: consigna, página 2.</p>
-<p>El <strong>Gantt de costos</strong> distribuye por período el presupuesto de cada actividad. Su suma por columna muestra cuánto se prevé gastar en esa semana; al acumular esas columnas se obtiene la <strong>línea base de costos</strong>, la referencia temporal contra la que se controlará el desempeño. La <strong>Curva S</strong> grafica esos costos acumulados; su forma exacta depende del plan y no tiene que parecer una letra S perfecta. Fuentes: clase de costos, páginas 13–14, 16 y 20–22 [T2].</p>
-<p>Usaremos el reparto lineal enseñado por la cátedra: costo semanal de una actividad = costo total / duración, durante sus semanas activas. Mini ejemplo: una tarea de USD 6.000 que ocupa semanas 3 y 4 aporta USD 3.000 en cada una. Al cierre de la semana 3 lleva planificado el 50 %, no el 100 %.</p>
-<p><strong>BAC</strong>, <em>Budget at Completion</em>, presupuesto hasta la conclusión, es el total presupuestado del trabajo que controlamos: el último valor de la curva acumulada. En este caso incluye actividades y estructura. La <strong>reserva para contingencias</strong> cubre riesgos identificados y forma parte de la línea base; la <strong>reserva de gestión</strong> queda fuera de ella. El caso no aporta importes ni porcentajes de reserva: no los inventaremos. Fuentes: clase de costos, páginas 16–18 [T2], y clase de medición, página 20 [T3].</p>
-<h3 id="15-como-controlar-sin-confundir-gaste-con-avance">1.5. Cómo controlar sin confundir “gasté” con “avancé”</h3>
-<p>El <strong>Método del Valor Ganado</strong>, <strong>EVM</strong> por <em>Earned Value Management</em>, convierte trabajo planificado y realizado a una misma unidad monetaria para compararlos con el gasto real. No identifica valor de mercado, ventas ni ganancias del negocio; usa el presupuesto del trabajo. Fuente: clase de medición, páginas 9–12 [T3].</p>
-<div class="table-scroll" role="region" aria-label="Tabla de estudio; desplazar horizontalmente si hace falta" tabindex="0"><table>
-<thead>
-<tr>
-<th>Símbolo</th>
-<th>Significado</th>
-<th>Cálculo y unidad</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>PV</td>
-<td>Planned Value, valor planificado</td>
-<td>Suma de presupuesto de cada actividad × su fracción planificada al corte; USD</td>
-</tr>
-<tr>
-<td>EV</td>
-<td>Earned Value, valor ganado</td>
-<td>Suma de presupuesto de cada actividad × su fracción realmente terminada al corte; USD</td>
-</tr>
-<tr>
-<td>AC</td>
-<td>Actual Cost, costo real</td>
-<td>Suma de los costos efectivamente incurridos al mismo corte; USD</td>
-</tr>
-<tr>
-<td>CV</td>
-<td>Cost Variance, variación de costo</td>
-<td>EV − AC; USD. Negativa: el trabajo realizado costó más que su presupuesto</td>
-</tr>
-<tr>
-<td>SV</td>
-<td>Schedule Variance, variación del cronograma</td>
-<td>EV − PV; USD. Negativa: se completó menos trabajo presupuestado que el previsto</td>
-</tr>
-<tr>
-<td>CPI</td>
-<td>Cost Performance Index, índice de desempeño del costo</td>
-<td>EV / AC; sin unidad. Menor que 1: eficiencia desfavorable</td>
-</tr>
-<tr>
-<td>SPI</td>
-<td>Schedule Performance Index, índice de desempeño del cronograma</td>
-<td>EV / PV; sin unidad. Menor que 1: avance valorizado inferior al previsto</td>
-</tr>
-</tbody>
-</table></div>
-<p>Fuentes de variaciones e índices: páginas 15 y 17–18 [T3]. Una fracción de avance del 40 % se utiliza como 0,40 en la multiplicación. Un CPI de 0,90 significa USD 0,90 de trabajo presupuestado por cada USD 1 gastado. Un SPI de 0,90 significa 90 % del valor de trabajo previsto a esa fecha; <strong>no significa 10 % de semanas de atraso</strong>.</p>
-<p>Mini ejemplo: una tarea presupuestada en USD 10.000 debía estar al 50 %, está al 40 % y consumió USD 6.000. PV = 5.000, EV = 4.000 y AC = 6.000. CV = −2.000 y SV = −1.000. Gastar 1.000 más que el plan no cuenta toda la historia: además faltan 1.000 de trabajo planificado que no se ejecutó. El sobrecosto del trabajo efectivamente realizado es 2.000.</p>
-<h3 id="16-pronosticar-no-es-cambiar-el-presupuesto-aprobado">1.6. Pronosticar no es cambiar el presupuesto aprobado</h3>
-<p>Estas magnitudes permiten responder las preguntas de futuro. Todas usan la misma fecha de corte y el mismo alcance:</p>
-<div class="table-scroll" role="region" aria-label="Tabla de estudio; desplazar horizontalmente si hace falta" tabindex="0"><table>
-<thead>
-<tr>
-<th>Símbolo</th>
-<th>Nombre y pregunta</th>
-<th>Fórmula usada y unidad</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>EAC</td>
-<td>Estimate at Completion, estimación a la conclusión: ¿cuánto costará todo?</td>
-<td>BAC / CPI; USD</td>
-</tr>
-<tr>
-<td>ETC</td>
-<td>Estimate to Complete, estimación para completar: ¿cuánto falta gastar?</td>
-<td>EAC − AC; USD</td>
-</tr>
-<tr>
-<td>VAC</td>
-<td>Variance at Completion, variación a la conclusión: ¿sobrará o faltará presupuesto?</td>
-<td>BAC − EAC; USD</td>
-</tr>
-<tr>
-<td>TCPI</td>
-<td>To-Complete Performance Index, índice de desempeño del trabajo por completar: ¿qué eficiencia exige el presupuesto original?</td>
-<td>(BAC − EV) / (BAC − AC); sin unidad</td>
-</tr>
-</tbody>
-</table></div>
-<p>Fuentes: clase de medición, páginas 20–23 [T3]. <strong>BAC − EV</strong> es el trabajo pendiente valorizado al presupuesto; <strong>BAC − AC</strong> es el dinero que aún queda dentro del presupuesto. No son la misma cosa.</p>
-<p>La fórmula EAC = BAC / CPI supone que la eficiencia de costo observada persistirá en lo que falta; es el método usado por la cátedra. No es una certeza ni una nueva autorización de gasto. Si cambian las causas del desvío, hay que actualizar el pronóstico. Conservaremos todos los decimales de los índices hasta el resultado final.</p>
-<h3 id="17-quien-hace-responde-opina-recibe-informacion-y-firma">1.7. Quién hace, responde, opina, recibe información y firma</h3>
-<p>La <strong>matriz RACIS</strong> asigna actividades a roles. Las filas son actividades y las columnas son roles concretos. Fuente: clase de equipo e interesados, páginas 20–21 y 24–25 [T4].</p>
+<p>Cada trabajo de esa lista es una <strong>actividad</strong>. Le vamos a poner una letra para reconocerla en las tablas y los dibujos. “A” será arquitectura; “B”, contratación, y así sucesivamente.</p>
+<p>Ahora fijate en la contratación: no podemos preparar la infraestructura antes de tener el contrato firmado. Una tarea tiene que esperar a otra.</p>
+<p>La que debe ocurrir primero se llama <strong>predecesora</strong>. En una tabla, escribir “predecesora: B” para la tarea C significa: <strong>C tiene que esperar a que termine B</strong>.</p>
+<p>Una firma también puede marcar un momento importante, aunque firmar no tenga una duración separada en el cronograma. Ese punto de control se llama <strong>hito</strong>. En este ejercicio incluimos las firmas dentro de las tareas correspondientes; no les agregamos semanas inventadas.</p>
+<p><em>Fuente: clase de plazos, páginas 7–9 [T1].</em></p>
+<h3 id="12-cuatro-semanas-y-640-horas-como-pueden-ser-ciertas-las-dos-cosas">1.2. Cuatro semanas y 640 horas: ¿cómo pueden ser ciertas las dos cosas?</h3>
+<p>La consigna dice que desarrollar la web lleva <strong>640 horas de trabajo</strong> y se termina en <strong>cuatro semanas</strong>.</p>
+<p>Están midiendo cosas distintas:</p>
 <ul>
-<li><strong>R — Responsible:</strong> responsable de ejecutar el trabajo.</li>
-<li><strong>A — Accountable:</strong> quien rinde cuentas por el resultado. Debe haber exactamente uno por fila.</li>
-<li><strong>C — Consulted:</strong> quien aporta opinión antes o durante el trabajo.</li>
-<li><strong>I — Informed:</strong> quien recibe información sobre el avance o el resultado.</li>
-<li><strong>S — Sign:</strong> quien debe firmar documentación vinculada a la actividad.</li>
+<li><strong>640 horas de esfuerzo:</strong> cuánto trabajo humano hay que aportar en total.</li>
+<li><strong>Cuatro semanas de duración:</strong> cuánto tiempo pasa desde que empieza hasta que termina la tarea.</li>
 </ul>
-<p>La firma no convierte automáticamente a alguien en ejecutor ni en quien rinde cuentas. Una contratación puede tener al líder técnico como R, al director del proyecto como A y al gerente general como S. El caso indica que el director del proyecto rinde cuentas en general, y establece excepciones para la campaña y la presentación final.</p>
+<p>Para verlo, pensemos en dos personas que trabajan ocho horas cada una durante un día. Entre ambas aportan <strong>16 horas de trabajo</strong>, aunque transcurrió <strong>un solo día</strong>.</p>
+<p>En la web de Hogar Norte, 640 horas repartidas en cuatro semanas equivalen a <strong>160 horas de trabajo por semana</strong>. Podrían cubrirse, por ejemplo, con cuatro personas de 40 horas semanales. La consigna no confirma esa dotación; el ejemplo solo muestra por qué esfuerzo y duración no son iguales.</p>
+<p>Esta diferencia importa por una razón práctica: <strong>para armar el calendario usamos semanas; para pagar a un equipo con tarifa por hora usamos horas</strong>.</p>
+<p><em>Base del ejemplo: horas y semanas informadas en la consigna, página 2 [E].</em></p>
+<h3 id="13-tres-maneras-de-llegar-a-un-costo">1.3. Tres maneras de llegar a un costo</h3>
+<p>Antes de sumar el presupuesto, necesitamos saber cuánto cuesta cada actividad. La forma de obtener ese número depende de la información disponible.</p>
+<h4 id="si-ya-hicimos-algo-parecido-estimacion-analoga">Si ya hicimos algo parecido: estimación análoga</h4>
+<p>La agencia ya rediseñó la tienda de la filial de Uruguay. Fue un trabajo similar y costó USD 15.000.</p>
+<p>Entonces usamos ese antecedente como referencia para Hogar Norte. Eso se llama <strong>estimación análoga</strong>: estimar comparando con un trabajo parecido.</p>
+<p>La pregunta que la reconoce es: <strong>“¿Cuánto nos costó algo similar?”</strong></p>
+<h4 id="si-conocemos-cantidad-y-precio-por-unidad-estimacion-parametrica">Si conocemos cantidad y precio por unidad: estimación paramétrica</h4>
+<p>Para migrar el catálogo sabemos que se cobra <strong>USD 0,50 por producto</strong>.</p>
+<p>Probemos primero con un catálogo pequeño de 100 productos:</p>
+<p><strong>100 productos × USD 0,50 por producto = USD 50.</strong></p>
+<p>Si fueran 200 productos con la misma tarifa, costaría USD 100. El costo crece con la cantidad.</p>
+<p>Eso es una <strong>estimación paramétrica</strong>: calcular a partir de una cantidad y una tarifa por unidad. La unidad puede ser un producto, una hora o una semana.</p>
+<p>En el ejercicio la aplicamos a los productos migrados y a las horas de desarrollo.</p>
+<h4 id="si-hay-incertidumbre-estimacion-con-tres-escenarios">Si hay incertidumbre: estimación con tres escenarios</h4>
+<p>En la nube no sabemos con certeza cuánto costará preparar la infraestructura. Puede salir más barato si hay descuentos o más caro si las pruebas necesitan mucha capacidad.</p>
+<p>Por eso el proveedor da tres importes:</p>
+<ul>
+<li><strong>Optimista:</strong> lo que costaría si se da el escenario favorable.</li>
+<li><strong>Más probable:</strong> lo que espera que ocurra normalmente.</li>
+<li><strong>Pesimista:</strong> lo que costaría en el escenario desfavorable considerado.</li>
+</ul>
+<p>Queremos reunirlos en una sola estimación, dándole más importancia al escenario más probable.</p>
+<p>Para eso usamos <strong>PERT</strong>, sigla de <em>Program Evaluation and Review Technique</em>, técnica de evaluación y revisión de programas. Aquí la aplicamos al costo:</p>
+<p><strong>Costo estimado = (optimista + 4 × más probable + pesimista) / 6.</strong></p>
+<p>¿Por qué dividimos por seis? Porque estamos sumando seis “partes”: una del optimista, cuatro del más probable y una del pesimista. Es la ponderación que establece este método.</p>
+<p>Ejemplo pequeño: optimista 100, más probable 130 y pesimista 180, todos en USD.</p>
+<ol>
+<li>Damos peso cuatro al más probable: 4 × 130 = <strong>520</strong>.</li>
+<li>Sumamos los tres aportes: 100 + 520 + 180 = <strong>800</strong>.</li>
+<li>Dividimos por las seis partes: 800 / 6 = <strong>USD 133,33</strong>.</li>
+</ol>
+<p>El resultado queda cerca de 130, pero algo por encima: el escenario caro tira el promedio hacia arriba. No significa que vayamos a pagar exactamente 133,33; es una estimación para planificar.</p>
+<p>Cuando aparezcan las letras <strong>O</strong>, <strong>m</strong> y <strong>P</strong>, solo estarán abreviando optimista, más probable y pesimista. No cambian la cuenta.</p>
+<p>Por último, algunas tareas ya vienen con un importe único, como “arquitectura: USD 12.000”. Lo tomamos como <strong>costo puntual dado</strong>. La consigna no explica cómo lo estimaron, así que no le atribuimos un método que no conocemos.</p>
+<p><em>Fuente: clase de costos, páginas 8 y 10–11 [T2].</em></p>
+<h3 id="14-por-que-no-podemos-sumar-todas-las-duraciones">1.4. ¿Por qué no podemos sumar todas las duraciones?</h3>
+<p>Supongamos que dos trabajos empiezan juntos: uno tarda dos semanas y otro, tres.</p>
+<p>Como ocurren al mismo tiempo, ambos estarán terminados al final de la semana <strong>3</strong>. No de la 5.</p>
+<p>En Hogar Norte pasa eso: mientras se trabaja en infraestructura, también puede avanzar el rediseño. Más adelante, web y app se desarrollan en paralelo.</p>
+<p>Para saber cuánto dura todo, necesitamos ver <strong>qué puede hacerse al mismo tiempo y qué tiene que esperar</strong>. Lo dibujamos con cajas y flechas:</p>
+<p><strong>Contrato firmado → Preparar la infraestructura → Migrar el catálogo.</strong></p>
+<p>Cada caja representa una actividad. La flecha se lee “primero debe terminar esta; después puede empezar la otra”. Este dibujo es una <strong>red de actividades</strong>.</p>
+<p>La cátedra la llama <strong>AON</strong>, <em>Activity on Node</em>, actividad en el nodo: el trabajo está en la caja, también llamada nodo. La relación de espera se llama <strong>FS</strong>, <em>Finish to Start</em>, fin a inicio.</p>
+<p>En el dibujo completo habrá ramas que se separan y vuelven a unirse. Cuando se unen, la siguiente tarea debe esperar a <strong>todas</strong> las que necesita.</p>
+<p>Por ejemplo, las pruebas no pueden empezar solo porque terminó la app: también necesitan los datos migrados y la integración terminada.</p>
+<p><em>Fuente: clase de plazos, páginas 16 y 18 [T1].</em></p>
+<h3 id="15-cuando-puede-empezar-una-tarea-y-cuanto-puede-esperar">1.5. Cuándo puede empezar una tarea y cuánto puede esperar</h3>
+<p>Primero calculemos lo más pronto que podría hacerse cada trabajo.</p>
+<p>Usamos el instante <strong>0</strong> como inicio del proyecto. Si la arquitectura dura dos semanas, empieza en 0 y termina en 2. Eso significa que ocupa las semanas 1 y 2.</p>
+<p>La contratación espera a la arquitectura. Por eso puede comenzar en 2. Como dura una semana, termina en 3.</p>
+<p>Para escribir esto de manera breve se usan dos siglas:</p>
+<ul>
+<li><strong>ES — Early Start, inicio temprano:</strong> lo más pronto que puede empezar.</li>
+<li><strong>EF — Early Finish, fin temprano:</strong> cuándo termina si comienza en ese momento.</li>
+</ul>
+<p>La cuenta es sencilla: <strong>fin temprano = inicio temprano + duración</strong>. En la contratación: 2 + 1 = 3.</p>
+<h4 id="cuando-una-tarea-espera-a-varias-manda-la-que-termina-ultima">Cuando una tarea espera a varias, manda la que termina última</h4>
+<p>Imaginá que para comenzar las pruebas necesitás dos trabajos: uno termina en 7 y el otro en 9.</p>
+<p>No podés probar en 7 porque todavía te falta el segundo. Tenés que esperar hasta <strong>9</strong>.</p>
+<p>Esta es la razón de la regla <strong>“tomar el máximo de los fines de las predecesoras”</strong>. “Máximo” simplemente significa elegir el más tardío de esos valores.</p>
+<p>Ir calculando así, desde el comienzo hacia el final del proyecto, se llama <strong>paso adelante</strong>.</p>
+<h4 id="ahora-pensemos-al-reves-cuanto-se-puede-posponer-sin-mover-el-cierre">Ahora pensemos al revés: cuánto se puede posponer sin mover el cierre</h4>
+<p>Supongamos que una tarea de dos semanas tiene que estar lista como máximo en el instante 9.</p>
+<p>Entonces puede empezar, como muy tarde, en <strong>7</strong>, porque 7 + 2 = 9.</p>
+<p>Para esos límites se usan otras dos siglas:</p>
+<ul>
+<li><strong>LF — Late Finish, fin tardío:</strong> lo más tarde que puede terminar sin atrasar el cierre calculado.</li>
+<li><strong>LS — Late Start, inicio tardío:</strong> lo más tarde que puede empezar sin atrasarlo.</li>
+</ul>
+<p>La cuenta ahora es <strong>inicio tardío = fin tardío − duración</strong>: 9 − 2 = 7.</p>
+<p>Se calcula desde el final del proyecto hacia el principio. Por eso se llama <strong>paso atrás</strong>.</p>
+<p>Si una actividad alimenta a dos tareas que necesitan empezar, como máximo, en 7 y en 9, debe estar lista en <strong>7</strong>. De lo contrario bloquearía a la primera. Esa es la razón de tomar el <strong>mínimo</strong> cuando hacemos el recorrido hacia atrás.</p>
+<h4 id="la-diferencia-entre-podes-empezar-y-tenes-que-empezar">La diferencia entre “podés empezar” y “tenés que empezar”</h4>
+<p>Si una tarea puede empezar en 5, pero podría esperar hasta 7 sin cambiar el fin del proyecto, tiene <strong>dos semanas de margen</strong>.</p>
+<p>Ese margen se llama <strong>holgura</strong>:</p>
+<p><strong>Holgura = inicio tardío − inicio temprano = 7 − 5 = 2 semanas.</strong></p>
+<p>Con las siglas: <strong>LS − ES</strong>. También se obtiene con los fines: <strong>LF − EF</strong>.</p>
+<p>Una tarea con holgura cero no tiene ese margen. Si se retrasa y nadie recupera el tiempo, desplaza el cierre del proyecto.</p>
+<p>La cadena que determina la duración total se llama <strong>camino crítico</strong>. El método para encontrarla se conoce como <strong>CPM</strong>, <em>Critical Path Method</em>, método del camino crítico. Buscamos el camino de mayor duración; “crítico” se refiere aquí a su efecto sobre la fecha, no al precio ni a la dificultad de la tarea.</p>
+<p>Al mirar un nodo del dibujo, los cuatro casilleros se leen siempre en este orden: <strong>ES | LS | EF | LF</strong>. Todos sus números son semanas contadas desde el inicio, no costos ni cantidades de personas.</p>
+<p><em>Fuente: clase de plazos, páginas 19, 21 y 26–28 [T1].</em></p>
+<h3 id="16-pasar-el-plan-a-un-calendario-el-gantt">1.6. Pasar el plan a un calendario: el Gantt</h3>
+<p>La red nos muestra las esperas. Ahora queremos ver qué estará haciendo el equipo durante cada semana.</p>
+<p>Para eso dibujamos una barra por actividad:</p>
+<ul>
+<li>Su posición muestra cuándo empieza.</li>
+<li>Su largo muestra cuánto dura.</li>
+<li>Su extremo muestra cuándo termina.</li>
+</ul>
+<p>Ese dibujo se llama <strong>diagrama de Gantt</strong>. Si una tarea empieza en el instante 5 y termina en 9, su barra ocupa las semanas <strong>6 a 9</strong>. No ocupa la semana 5: al instante 5, esa semana ya terminó.</p>
+<p>El Gantt tiene que contar la misma historia que la red. No podemos mover una barra a una semana anterior si con eso hacemos que empiece antes de terminar su predecesora.</p>
+<p><em>Fuente: clase de plazos, páginas 29–30 [T1].</em></p>
+<h3 id="17-no-solo-importa-cuanto-cuesta-tambien-cuando-lo-vamos-a-gastar">1.7. No solo importa cuánto cuesta: también cuándo lo vamos a gastar</h3>
+<p>Pensemos en una tarea de USD 6.000 que dura dos semanas.</p>
+<p>Para este ejercicio repartimos su costo por igual:</p>
+<ul>
+<li>Primera semana: <strong>USD 3.000</strong>.</li>
+<li>Segunda semana: <strong>USD 3.000</strong>.</li>
+</ul>
+<p>Si hay otra tarea activa durante la primera semana, sumamos también su costo semanal. Haciendo eso para todas las actividades armamos el <strong>Gantt de costos</strong>: una tabla que muestra el dinero previsto en cada semana.</p>
+<p>Ahora vamos acumulándolo. Si la primera semana se prevén 3.000 y la segunda 4.000, al cerrar la segunda llevamos <strong>7.000 acumulados</strong>.</p>
+<p>Ese presupuesto distribuido en el tiempo es nuestra <strong>línea base de costos</strong>: el plan que conservamos para comparar después con lo que realmente ocurra.</p>
+<p>Si dibujamos el acumulado en un gráfico, obtenemos la <strong>Curva S</strong>. El eje horizontal muestra las semanas; el vertical, los dólares acumulados. Se llama así por su forma habitual, aunque el gráfico de un proyecto concreto no tiene que parecer una S perfecta.</p>
+<p>El último valor es todo el dinero presupuestado para el trabajo. Se llama <strong>BAC — Budget at Completion</strong>, presupuesto hasta la conclusión. En Hogar Norte sumaremos dos grupos:</p>
+<ul>
+<li><strong>Costos directos:</strong> los que asignamos a una tarea, como desarrollar la app.</li>
+<li><strong>Estructura:</strong> lo que sostiene al proyecto, como coordinación, herramientas y seguros.</li>
+</ul>
+<p>El costo de estructura también cuenta, aunque no aparezca como una barra que habilita otra tarea.</p>
+<p>Podría haber dinero reservado para riesgos. La <strong>reserva para contingencias</strong> cubre riesgos identificados y se incluye en la línea base; la <strong>reserva de gestión</strong> queda fuera de ella. Como este ejercicio no da importes de reservas, no agregamos porcentajes propios.</p>
+<p><em>Fuentes: clase de costos, páginas 9, 13–18 y 20–22 [T2]; definición de BAC, clase de medición, página 20 [T3].</em></p>
+<h3 id="18-el-punto-mas-importante-gastar-dinero-no-demuestra-que-el-trabajo-avanzo">1.8. El punto más importante: gastar dinero no demuestra que el trabajo avanzó</h3>
+<p>Por un momento dejemos el catálogo real y usemos uno pequeño para aprender la idea.</p>
+<p>Tenemos que migrar <strong>100 productos</strong>. Presupuestamos <strong>USD 10 por producto</strong>. El presupuesto completo es entonces <strong>USD 1.000</strong>.</p>
+<p>Llegó el viernes y el plan decía que ya debían estar migrados <strong>50 productos</strong>. Sin embargo, el equipo terminó <strong>40</strong> y gastó <strong>USD 600</strong>.</p>
+<p>Necesitamos mirar tres cosas por separado.</p>
+<h4 id="primero-que-deberiamos-llevar-hecho">Primero: qué deberíamos llevar hecho</h4>
+<p>El plan decía 50 productos. Como presupuestamos USD 10 por producto:</p>
+<p><strong>50 × 10 = USD 500 de trabajo previsto.</strong></p>
+<p>Eso se llama <strong>PV — Planned Value</strong>, valor planificado. Es la respuesta a: <strong>“Según el plan, ¿cuánto trabajo debía estar listo a esta fecha, medido a precio de presupuesto?”</strong></p>
+<h4 id="segundo-que-trabajo-terminamos-realmente">Segundo: qué trabajo terminamos realmente</h4>
+<p>Terminamos 40 productos. Los valoramos con los mismos USD 10 presupuestados:</p>
+<p><strong>40 × 10 = USD 400 de trabajo realizado.</strong></p>
+<p>Eso se llama <strong>EV — Earned Value</strong>, valor ganado. “Ganado” significa que completamos ese trabajo y podemos reconocer su valor presupuestado. No son ventas ni ganancias de la empresa.</p>
+<h4 id="tercero-cuanto-pagamos-por-hacerlo">Tercero: cuánto pagamos por hacerlo</h4>
+<p>El gasto fue de <strong>USD 600</strong>. Lo tomamos del registro real, no del plan.</p>
+<p>Eso se llama <strong>AC — Actual Cost</strong>, costo real.</p>
+<p>Antes de seguir, retené los tres números del ejemplo:</p>
+<ul>
+<li>Debíamos tener <strong>500</strong> de trabajo hecho: <strong>PV</strong>.</li>
+<li>Tenemos <strong>400</strong> de trabajo hecho: <strong>EV</strong>.</li>
+<li>Para hacerlo gastamos <strong>600</strong>: <strong>AC</strong>.</li>
+</ul>
+<p>Esta comparación es la base del <strong>Método del Valor Ganado</strong>, llamado <strong>EVM</strong> por <em>Earned Value Management</em>. Expresamos el trabajo en dinero presupuestado para poder compararlo con el gasto. Los tres valores se miden en USD y corresponden a la misma fecha.</p>
+<p>Cuando el avance viene en porcentaje, hacemos lo mismo: una tarea presupuestada en USD 1.000 que está al 40 % tiene EV = 1.000 × 0,40 = USD 400.</p>
+<p><em>Fuente: clase de medición, páginas 9–12 [T3].</em></p>
+<h3 id="19-dos-comparaciones-para-saber-que-salio-mal">1.9. Dos comparaciones para saber qué salió mal</h3>
+<p>Sigamos con los mismos 100 productos. No hace falta aprender otro ejemplo.</p>
+<h4 id="nos-costo-mas-de-lo-previsto-hacer-el-trabajo-terminado">¿Nos costó más de lo previsto hacer el trabajo terminado?</h4>
+<p>Terminamos trabajo que habíamos presupuestado en <strong>400</strong>, pero gastamos <strong>600</strong>.</p>
+<p><strong>400 − 600 = −USD 200.</strong></p>
+<p>El signo negativo señala que el costo fue desfavorable: producir ese trabajo costó 200 más que su presupuesto.</p>
+<p>La cuenta se llama <strong>CV — Cost Variance</strong>, variación de costo:</p>
+<p><strong>CV = EV − AC.</strong></p>
+<h4 id="terminamos-todo-lo-que-tocaba-para-el-viernes">¿Terminamos todo lo que tocaba para el viernes?</h4>
+<p>Teníamos que llegar a <strong>500</strong> de trabajo, pero llegamos a <strong>400</strong>.</p>
+<p><strong>400 − 500 = −USD 100.</strong></p>
+<p>Nos faltó completar trabajo que valía 100 según el presupuesto. La cuenta se llama <strong>SV — Schedule Variance</strong>, variación del cronograma:</p>
+<p><strong>SV = EV − PV.</strong></p>
+<p>Aunque habla del cronograma, <strong>SV está en dólares</strong>. Nos dice cuánto trabajo quedó pendiente frente al plan. Para saber cuántas semanas se moverá el proyecto, tenemos que volver a las tareas y al camino crítico.</p>
+<p><em>Fuente: clase de medición, página 15 [T3].</em></p>
+<h3 id="110-dos-divisiones-para-medir-que-tan-bien-venimos">1.10. Dos divisiones para medir qué tan bien venimos</h3>
+<p>Las diferencias anteriores dicen cuántos dólares nos desviamos. Ahora queremos medir la proporción.</p>
+<h4 id="cuanto-trabajo-conseguimos-por-cada-dolar-gastado">Cuánto trabajo conseguimos por cada dólar gastado</h4>
+<p>Gastamos 600 y conseguimos 400 de trabajo presupuestado:</p>
+<p><strong>400 / 600 = 0,6667.</strong></p>
+<p>Por cada dólar gastado conseguimos aproximadamente <strong>USD 0,67 de trabajo que habíamos presupuestado</strong>. Queríamos conseguir uno; obtuvimos menos.</p>
+<p>Esta medida se llama <strong>CPI — Cost Performance Index</strong>, índice de desempeño del costo:</p>
+<p><strong>CPI = EV / AC.</strong></p>
+<h4 id="que-parte-del-trabajo-previsto-alcanzamos">Qué parte del trabajo previsto alcanzamos</h4>
+<p>Llegamos a 400 de los 500 previstos:</p>
+<p><strong>400 / 500 = 0,80.</strong></p>
+<p>Hicimos el <strong>80 % del valor de trabajo que debíamos tener listo para ese viernes</strong>.</p>
+<p>Esta medida se llama <strong>SPI — Schedule Performance Index</strong>, índice de desempeño del cronograma:</p>
+<p><strong>SPI = EV / PV.</strong></p>
+<p>En los dos índices, <strong>1 significa coincidir con la referencia</strong>. Menos de 1 indica una situación desfavorable; más de 1, favorable. Son proporciones, sin unidad.</p>
+<p>En este ejemplo SPI = 0,80 no permite afirmar “vamos a tardar 20 % más de semanas”. Quizá lo que falta tiene margen; quizá está en la ruta que bloquea todo. Hay que mirar la red.</p>
+<p><em>Fuente: clase de medición, páginas 17–18 [T3].</em></p>
+<h3 id="111-si-seguimos-trabajando-asi-cuanto-dinero-va-a-hacer-falta">1.11. Si seguimos trabajando así, ¿cuánto dinero va a hacer falta?</h3>
+<p>Todavía estamos en el ejemplo de 100 productos, con presupuesto total de <strong>USD 1.000</strong>. Terminamos trabajo por <strong>400</strong> y gastamos <strong>600</strong>.</p>
+<h4 id="cuanto-costaria-terminar-todo-eac">Cuánto costaría terminar todo: EAC</h4>
+<p>Con los 600 gastados hicimos el 40 % del trabajo. Si el resto cuesta al mismo ritmo, hacer el 100 % costaría:</p>
+<p><strong>600 / 0,40 = USD 1.500.</strong></p>
+<p>A ese total pronosticado lo llamamos <strong>EAC — Estimate at Completion</strong>, estimación a la conclusión.</p>
+<p>También se obtiene dividiendo el presupuesto total por la eficiencia observada: <strong>EAC = BAC / CPI</strong>. En el ejemplo: 1.000 / (400 / 600) = 1.500.</p>
+<p>Esta fórmula supone que la eficiencia de costo se mantiene. Si corregimos la causa del sobrecosto, el futuro puede cambiar. El pronóstico no es una autorización para gastar más.</p>
+<h4 id="cuanto-falta-gastar-desde-hoy-etc">Cuánto falta gastar desde hoy: ETC</h4>
+<p>De esos 1.500 totales, ya gastamos 600:</p>
+<p><strong>1.500 − 600 = USD 900 pendientes de gastar.</strong></p>
+<p>Eso es <strong>ETC — Estimate to Complete</strong>, estimación para completar:</p>
+<p><strong>ETC = EAC − AC.</strong></p>
+<h4 id="cuanto-nos-pasariamos-del-presupuesto-vac">Cuánto nos pasaríamos del presupuesto: VAC</h4>
+<p>Habíamos presupuestado 1.000 y ahora estimamos terminar en 1.500:</p>
+<p><strong>1.000 − 1.500 = −USD 500.</strong></p>
+<p>Eso es <strong>VAC — Variance at Completion</strong>, variación a la conclusión:</p>
+<p><strong>VAC = BAC − EAC.</strong></p>
+<p>No confundas esos dos resultados: <strong>900</strong> es lo que falta gastar; <strong>500</strong> es lo que excedería al presupuesto original.</p>
+<h4 id="que-tendriamos-que-lograr-para-no-pasarnos-tcpi">Qué tendríamos que lograr para no pasarnos: TCPI</h4>
+<p>Nos falta trabajo que habíamos presupuestado en <strong>1.000 − 400 = 600</strong>.</p>
+<p>Pero del presupuesto original solo queda dinero por <strong>1.000 − 600 = 400</strong>.</p>
+<p>Para cumplir el presupuesto tendríamos que producir esos 600 de trabajo con solo 400 de dinero:</p>
+<p><strong>600 / 400 = 1,50.</strong></p>
+<p>Es decir: por cada dólar que gastemos desde ahora, deberíamos conseguir <strong>USD 1,50 de trabajo presupuestado</strong>. Hasta ahora conseguíamos apenas 0,67. Haría falta una mejora muy importante.</p>
+<p>Esta exigencia se llama <strong>TCPI — To-Complete Performance Index</strong>, índice de desempeño del trabajo por completar:</p>
+<p><strong>TCPI = (BAC − EV) / (BAC − AC).</strong></p>
+<p>Arriba va el <strong>trabajo pendiente</strong>, medido a presupuesto. Abajo va el <strong>dinero que queda</strong>. El resultado describe la eficiencia que necesitaríamos, no la que ya tenemos.</p>
+<p><em>Fuente: clase de medición, páginas 20–23 [T3].</em></p>
+<h3 id="112-a-quien-le-toca-hacer-cada-cosa">1.12. A quién le toca hacer cada cosa</h3>
+<p>Volvamos a Hogar Norte. En una contratación participan varias personas, pero no todas hacen lo mismo.</p>
+<p>El líder de Infraestructura negocia. Seguridad revisa las cláusulas. El gerente firma. El director del proyecto responde por que la actividad salga bien.</p>
+<p>Para dejar claras esas diferencias usamos la <strong>matriz RACIS</strong>. Es una tabla: cada fila es una actividad; cada columna, un rol. La letra de la celda explica cómo participa ese rol.</p>
+<ul>
+<li><strong>R — Responsible, responsable de ejecutar:</strong> hace el trabajo. En la contratación, Infraestructura.</li>
+<li><strong>A — Accountable, quien rinde cuentas:</strong> responde por el resultado. En esa contratación, el director del proyecto.</li>
+<li><strong>C — Consulted, consultado:</strong> aporta una opinión que se necesita para trabajar o decidir. En esa contratación, Seguridad.</li>
+<li><strong>I — Informed, informado:</strong> recibe novedades o resultados. Por ejemplo, en el diseño de arquitectura, el gerente recibe el diseño final.</li>
+<li><strong>S — Sign, firma:</strong> tiene que firmar el documento. En la contratación, el gerente general.</li>
+</ul>
+<p>La diferencia central es <strong>hacer, responder y firmar</strong>. Pueden corresponder a personas distintas.</p>
+<p>Al revisar cada fila buscamos <strong>un solo A</strong>, para que esté claro quién rinde cuentas, y <strong>al menos un R</strong>, para que el trabajo tenga ejecutor.</p>
+<p>En el caso, el director del proyecto tiene A como regla general. Pero hay dos excepciones expresas: <strong>el gerente general responde por la campaña y por la presentación final</strong>. Al completar esas filas seguimos lo que dice el caso.</p>
+<p><em>Fuente: clase de equipo e interesados, páginas 20–21 y 24–25 [T4].</em></p>
 <h2 id="2-metodo-de-resolucion-y-supuestos-que-hacen-falta">2. Método de resolución y supuestos que hacen falta</h2>
-<p>La secuencia es: extraer actividades y dependencias → estimar costos → calcular tiempos → comprobar caminos → dibujar Gantt → repartir costos → medir en semana 6 → pronosticar → asignar responsabilidades. Cada paso reutiliza los resultados del anterior; así se evita tener un costo que no coincide con el cronograma o un avance que usa otra base monetaria.</p>
+<p>Antes de empezar las cuentas, conviene saber para qué sirve cada paso:</p>
+<ol>
+<li><strong>Listamos el trabajo y calculamos sus costos.</strong> Así sabemos qué tareas hay y cuánto presupuestar para cada una.</li>
+<li><strong>Ordenamos qué espera a qué.</strong> Con esas dependencias calculamos cuándo puede empezar y terminar cada actividad.</li>
+<li><strong>Buscamos la cadena que fija el cierre.</strong> Eso permite comprobar si llegamos a las 18 semanas.</li>
+<li><strong>Dibujamos las tareas sobre las semanas.</strong> Ese es el Gantt; usamos las mismas fechas, sin cambiarlas.</li>
+<li><strong>Repartimos los costos en esas semanas.</strong> Obtenemos cuánto trabajo presupuestado deberíamos llevar a cada fecha.</li>
+<li><strong>Nos detenemos al cierre de la semana 6.</strong> Comparamos lo que debía estar hecho, lo que está hecho y lo gastado.</li>
+<li><strong>Estimamos qué puede pasar de aquí al final.</strong> Usamos esa comparación para pronosticar el dinero necesario.</li>
+<li><strong>Dejamos claro quién participa en cada tarea.</strong> Completamos la matriz de responsabilidades.</li>
+</ol>
+<h3 id="acuerdos-de-calculo-para-este-caso">Acuerdos de cálculo para este caso</h3>
+<p>Estas aclaraciones explican cómo tratamos los datos que la consigna no detalla. Podés volver a ellas cuando aparezcan en la resolución.</p>
 <ol>
 <li><strong>Calendario relativo:</strong> no hay fecha de inicio ni feriados. Se usan semanas consecutivas; el intervalo de tiempo 0–2 corresponde a las semanas 1 y 2. El cierre de la semana 6 es el instante 6. No se inventan fechas de calendario.</li>
 <li><strong>Dependencias:</strong> se incorporan las que afirma el caso. El desarrollo web y móvil dependen del rediseño, no del aprovisionamiento cloud; la integración sí depende del aprovisionamiento y de la web. No se agregan restricciones técnicas que el enunciado no dio.</li>
@@ -1498,7 +1612,7 @@ button{font:inherit;border:1px solid var(--line);border-radius:7px;background:wh
 <p><strong>¿Firmar la contratación convierte al gerente en A?</strong> No. S y A son responsabilidades distintas. El texto mantiene al director del proyecto como A salvo las excepciones expresas de campaña y presentación.</p>
 <p><strong>¿Un pronóstico mayor que el presupuesto autoriza a gastar más?</strong> No. Revela la necesidad de una decisión: evaluar recuperación, riesgos, recursos y autorización de cambios. El BAC permanece como referencia hasta que se apruebe modificarlo.</p>
 <h2 id="5-fuentes-y-trazabilidad">5. Fuentes y trazabilidad</h2>
-<p>Los números de página siguientes corresponden a la posición de página del PDF original, contada desde 1. Los originales se consultaron para las definiciones y fórmulas, y se inspeccionaron visualmente los modelos utilizados. Los párrafos explicativos y mini ejemplos didácticos son elaboración de esta resolución.</p>
+<p>Los números de página siguientes corresponden a la posición de página del PDF original, contada desde 1. Los originales se consultaron para las definiciones y fórmulas, y se inspeccionaron visualmente los modelos utilizados. Las explicaciones y los ejemplos pequeños, incluido el catálogo de 100 productos usado para aprender valor ganado y pronósticos, son elaboración de esta resolución. Los datos del caso real se conservan en el desarrollo de las ocho consignas.</p>
 <ul>
 <li><strong>[E] Consigna:</strong> <a href="Ejercicio_DPI_Migracion_Ecommerce_Hogar_Norte.pdf">Ejercicio DPI: Migración del e-commerce de Hogar Norte</a>. Página 1: contexto, infraestructura, migraciones y diseño; página 2: desarrollos, integración, pruebas, publicación, campaña, cierre y estructura; página 3: estado en semana 6 y consignas 6–8.</li>
 <li><strong>[T1] Plazos:</strong> <a href="../../theory/course_material/04_DPI_Clase4_Dominio_Planificacion_Plazos.pdf">04_DPI_Clase4_Dominio_Planificacion_Plazos.pdf</a>. Páginas 7–9: actividad e hito; 16 y 18: red y dependencias; 19 y 21: formato de nodo y holgura; 26–28: camino crítico y recorridos; 29–30: Gantt. Se inspeccionaron los diseños de las páginas 19, 21, 26, 29 y 30.</li>
