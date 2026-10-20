@@ -35,6 +35,12 @@
   - [Original prompt (PDF)](<auxiliar_exercises/04. Ruta Bike 40/Clase_07_Ruta 40 Bikes.pdf>)
   - [Class location reference (XLSX)](<auxiliar_exercises/04. Ruta Bike 40/Ruta40Bikes_Clase07_Ubicacion.xlsx>)
 
+- Hogar Norte: migración del comercio electrónico a la nube
+  - [Resolución paso a paso (Markdown)](auxiliar_exercises/cloud_ecommerce_migration/cloud_ecommerce_migration_solution.md)
+  - [Material de estudio completo (HTML)](auxiliar_exercises/cloud_ecommerce_migration/cloud_ecommerce_migration_solution.html)
+  - [Consigna original (PDF)](auxiliar_exercises/cloud_ecommerce_migration/Ejercicio_DPI_Migracion_Ecommerce_Hogar_Norte.pdf)
+  - [Consigna extraída (Markdown)](auxiliar_exercises/cloud_ecommerce_migration/exercise_prompt.md)
+
 ## Submissions
 
 - [Submissions overview](submissions/README.md)

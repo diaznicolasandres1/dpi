@@ -2,7 +2,7 @@
   "documents": [
     {
       "type": "pdf",
-      "source": "theory/course_material/01_DPI_Introducción.pdf",
+      "source": "theory/course_material/01_DPI_Introducción.pdf",
       "output": "theory/course_material/01_introduction.md",
       "title": "DPI Introduction"
     },
@@ -83,6 +83,12 @@
       "source": "submissions/submission_2/Grupo_1_entrega_N2_Gantt_y_presupuesto.xlsx",
       "output": "submissions/submission_2/gantt_and_budget.md",
       "title": "Submission N2 Gantt and Budget"
+    },
+    {
+      "type": "pdf",
+      "source": "auxiliar_exercises/cloud_ecommerce_migration/Ejercicio_DPI_Migracion_Ecommerce_Hogar_Norte.pdf",
+      "output": "auxiliar_exercises/cloud_ecommerce_migration/exercise_prompt.md",
+      "title": "Hogar Norte: Migración del comercio electrónico a la nube — Consigna"
     }
   ],
   "manual_conversions": [
