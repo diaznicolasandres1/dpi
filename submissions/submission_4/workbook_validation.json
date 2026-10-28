@@ -1,0 +1,60 @@
+{
+  "oldM": 372700,
+  "newM": 373553,
+  "restoredM": 372700,
+  "invalidStatus": "Dato inválido: avance 0..1 y AC>=0",
+  "negativeStatus": "Dato inválido: avance 0..1 y AC>=0",
+  "zeroCPI": "No calculable",
+  "zeroEAC": "No calculable",
+  "EVMRealStatus": "Pendiente de datos reales",
+  "demo": [
+    [
+      "BAC",
+      372700
+    ],
+    [
+      "PV",
+      200000
+    ],
+    [
+      "EV",
+      180000
+    ],
+    [
+      "AC",
+      195000
+    ],
+    [
+      "CV",
+      -15000
+    ],
+    [
+      "SV",
+      -20000
+    ],
+    [
+      "CPI",
+      0.9230769230769231
+    ],
+    [
+      "SPI",
+      0.9
+    ],
+    [
+      "EAC",
+      403758.3333333333
+    ],
+    [
+      "ETC",
+      208758.3333333333
+    ],
+    [
+      "VAC",
+      -31058.333333333314
+    ],
+    [
+      "TCPI",
+      1.084411930219471
+    ]
+  ]
+}

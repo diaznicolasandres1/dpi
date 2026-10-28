@@ -173,6 +173,18 @@
       "source": "theory/gdp_material/10 GDP Dominio Trabajo_Adquisiciones.pdf",
       "output": "theory/gdp_material/10_project_work_and_procurement.md",
       "title": "Trabajo del proyecto y adquisiciones"
+    },
+    {
+      "type": "pdf",
+      "source": "submissions/submission_4/Grupo 1_Entrega N4.pdf",
+      "output": "submissions/submission_4/exported_text.md",
+      "title": "Submission N4 PDF"
+    },
+    {
+      "type": "xlsx",
+      "source": "submissions/submission_4/Grupo 1_Entrega N4.xlsx",
+      "output": "submissions/submission_4/workbook.md",
+      "title": "Submission N4 Workbook"
     }
   ],
   "manual_conversions": [

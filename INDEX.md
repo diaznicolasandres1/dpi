@@ -87,3 +87,11 @@
 - [Submission N4 workspace](submissions/submission_4/README.md)
 - [Consigna N4](submissions/submission_4/assignment.md)
 - [Disponibilidad de clases para N4](submissions/submission_4/material_readiness.md)
+- [Documento N4](<submissions/submission_4/Grupo 1_Entrega N4.pdf>)
+- [Planilla N4](<submissions/submission_4/Grupo 1_Entrega N4.xlsx>)
+- [Fuente de contenido N4](submissions/submission_4/submission.md)
+- [Validación y decisiones N4](submissions/submission_4/validation_notes.md)
+- [Texto del PDF N4](submissions/submission_4/exported_text.md)
+- [Conversión del Excel N4](submissions/submission_4/workbook.md)
+
+- [Revisión independiente N4](submissions/submission_4/peer_review.md)

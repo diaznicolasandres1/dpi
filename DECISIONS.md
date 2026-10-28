@@ -40,6 +40,16 @@ Decisiones derivadas de la devolución:
 - Ajustar el nodo AON al molde de la cátedra y evitar flechas con tramos compartidos.
 - Evitar reproducir la N1 dentro del documento principal de N2.
 
+## Submission N4 — decisiones de preparación (27/10/2026)
+
+- La continuidad presupuestaria usa los originales N2 corregidos en `submissions/submission_2/corrected_review/`: costo de trabajo USD372.700 y línea base USD394.700, concordantes con N3 revisión2 confirmada. Los Markdown N2 originales conservan cifras antiguas y no representan esa corrección.
+- N4 calcula O/M/P y PERT por las31tareas; conserva M en línea base según ejemplo DPI5p11 y condición de precio fijo de K-2. PERT técnico no incrementa automáticamente el compromiso VCA ni se suma a contingencia.
+- Se usa BAC operativo sin reservas (DPI6p20), conciliado como trabajo372.700+contingencia no distribuida22.000=línea base394.700. Activar una respuesta exige transferir presupuesto a trabajo medible, sin ganarEV por reservar fondos.
+- La contingencia22.000 se conserva como provisión heredada y se propone un desglose por cantidades/tarifas incrementales. Es hipótesis pendiente de juicio experto, no VME ni demostración de suficiencia. No se fuerza una nueva estimación a ese techo.
+- Calidad y riesgos se validan con GDP complementario, numeración independiente de DPI. ISO/IEC25010:2023 y OWASP ASVS5.0.0 son marcos elegidos; coberturas y porcentajes nuevos son decisiones académicas, sin afirmar certificación.
+- Devengo de sandbox se alinea con necesidad30/10 de N3 y logística masiva se ubica22-30/03 después de balances/UAT. Cantidades/costos e hitos se preservan; disponibilidad de referentes requiere validación.
+- PDF único más Excel con base `Grupo 1_Entrega N4` es supuesto de formato por antecedente docenteN2; consignaN4 no confirmó nombre exacto.
+
 ## Open issues
 
 - Validar si el PV del día 15 es USD 38.000 o USD 38.800. Los anexos contienen ambos valores.

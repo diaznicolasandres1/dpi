@@ -1,6 +1,6 @@
 # TP4 — Disponibilidad de materiales
 
-Relevamiento del 27/10/2026. La consigna está en [assignment.md](assignment.md). Este documento registra disponibilidad; no constituye la resolución del TP4.
+Relevamiento actualizado el 27/10/2026. La consigna está en [assignment.md](assignment.md). La propuesta N4 ya está preparada: consultar [README](README.md), [contenido](submission.md) y [validación](validation_notes.md). Este archivo registra las fuentes disponibles y conserva las referencias a clases DPI todavía no incorporadas.
 
 ## Colección complementaria GDP incorporada
 
@@ -17,11 +17,11 @@ Las conversiones de esta colección requieren OCR en páginas sin texto seleccio
 | Estimación análoga o multipunto por tarea | [Clase 5, PDF](../../theory/course_material/05_DPI_Clase5_Dominio_Planificacion_Costos.pdf), pp. 10–11 | Disponible: técnicas y ejemplo de tres valores |
 | Línea base, contingencias, reserva de gestión y distribución temporal | Clase 5, pp. 16–18 y 20–22 | Disponible |
 | Seguimiento mediante Valor Ganado (EVM) | [Clase 6, PDF](../../theory/course_material/06_DPI_Clase6_EVM_Medicion.pdf), pp. 10–17 y 20–23 | Disponible: valores, variaciones, índices y pronósticos |
-| Plan de calidad, estándares y controles de software | Clase 6, p. 5, lo ubica en una unidad posterior de Calidad | Falta material específico; las menciones generales no cubren el plan requerido |
-| Registro de ≥10 riesgos, escalas 1–5, gráfico, respuestas y monitoreo | Clase 6, p. 5, remite a clases 13–14 | Faltan las clases específicas de riesgos |
+| Plan de calidad, estándares y controles de software | [GDP Entrega y calidad](../../theory/gdp_material/09_delivery_and_quality.md), pp. 3–6; fuentes oficiales ISO/IEC 25010:2023 y OWASP ASVS 5.0.0 citadas en la propuesta | Base disponible y aplicada; umbrales propios justificados, sin afirmar certificación |
+| Registro de ≥10 riesgos, escalas 1–5, gráfico, respuestas y monitoreo | [GDP Incertidumbre](../../theory/gdp_material/07_uncertainty_domain.md), pp. 10–21 | Base disponible y aplicada: 19 riesgos, matriz 1–5 y respuestas; las clases DPI 13–14 siguen sin incorporarse |
 | Justificación de Juicio de Experto para costos y riesgos | [Clase 11, PDF](../../theory/course_material/11_DPI_Clase11_Taller_OBS_RACI_Juicio_Experto.pdf), pp. 4–5 y 14; [Markdown](../../theory/course_material/11_obs_raci_expert_judgment_workshop.md) | Disponible: definición, ejemplos de costos y referencia explícita a la nota del TP4 |
 
-Las referencias anteriores se cotejaron con el texto extraído de los PDF originales, además de navegar los Markdown. No se validaron moldes visuales de una entrega final: todavía no hay una resolución ni se dispone de las clases de riesgos y calidad.
+Las fuentes se cotejaron contra los originales y se verificaron las representaciones finales según las [notas de validación](validation_notes.md). La colección GDP complementaria y los estándares externos identificados permiten preparar la propuesta sin esperar las clases DPI pendientes.
 
 ## Hasta qué clase llega el hub
 
@@ -38,13 +38,13 @@ Los materiales anteriores anunciaban el taller de Juicio de Experto como clase 1
 - Falta incorporar la unidad de Calidad y las clases 13–14 de riesgos. Sus números provienen de referencias internas; verificar el título real al recibir los originales. El taller de Juicio de Experto ya está incorporado como clase 11.
 - La consigna no fija porcentajes concretos de revisión por pares ni de pruebas: deberán proponerse y justificarse, sin atribuirlos como cifras obligatorias de la cátedra.
 
-## Lista de alcance del TP4
+## Lista de alcance del TP4 — contrastar con la propuesta y sus notas de validación
 
-- [ ] Costos por tarea con técnica análoga o tres valores y base de cálculo verificable.
-- [ ] Línea base formal e indicadores de Valor Ganado con fuentes, responsables y frecuencia de seguimiento.
-- [ ] Criterios técnicos de calidad y mecanismos de control basados en estándares.
-- [ ] Registro de al menos 10 riesgos de desarrollo informático.
-- [ ] Probabilidad e impacto de 1 a 5 y gráfico de matriz.
-- [ ] Respuestas concretas, planes de acción y mecanismos de monitoreo.
-- [ ] Nota justificando Juicio de Experto para riesgos y costos.
-- [ ] Verificación contra las clases originales faltantes antes de afirmar cumplimiento de sus métodos y formatos.
+- [x] Costos por tarea con técnica análoga o tres valores y base de cálculo verificable.
+- [x] Línea base formal e indicadores de Valor Ganado con fuentes, responsables y frecuencia de seguimiento.
+- [x] Criterios técnicos de calidad y mecanismos de control basados en estándares.
+- [x] Registro de al menos 10 riesgos de desarrollo informático.
+- [x] Probabilidad e impacto de 1 a 5 y gráfico de matriz.
+- [x] Respuestas concretas, planes de acción y mecanismos de monitoreo.
+- [x] Nota justificando Juicio de Experto para riesgos y costos.
+- [x] Verificación contra los originales disponibles de DPI/GDP; sin afirmar validación contra clases DPI no recibidas.
