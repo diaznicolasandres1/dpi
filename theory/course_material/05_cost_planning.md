@@ -2,7 +2,8 @@
 
 # Cost Planning
 
-**Original source:** `05_DPI_Clase5_Dominio_Planificacion_Costos.pdf`  
+**Original source:** `05_DPI_Clase5_Dominio_Planificacion_Costos.pdf`
+
 **Pages:** 35
 
 > This Markdown version preserves the extractable text page by page. Consult the original PDF for diagrams, visual composition, and exact pagination.

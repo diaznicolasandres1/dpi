@@ -2,7 +2,8 @@
 
 # Value Principles and Performance Domains
 
-**Original source:** `02_DPI_Clase_2_Valor_Principios_y_dominionos.pdf`  
+**Original source:** `02_DPI_Clase_2_Valor_Principios_y_dominionos.pdf`
+
 **Pages:** 37
 
 > This Markdown version preserves the extractable text page by page. Consult the original PDF for diagrams, visual composition, and exact pagination.

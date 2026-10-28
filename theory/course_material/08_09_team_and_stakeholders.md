@@ -2,7 +2,8 @@
 
 # Team and Stakeholders
 
-**Original source:** `08-09_DPI_Clases08y00_Equipo_e_Interesados.pdf`  
+**Original source:** `08-09_DPI_Clases08y00_Equipo_e_Interesados.pdf`
+
 **Pages:** 47
 
 > This Markdown version preserves the extractable text page by page. Consult the original PDF for diagrams, visual composition, and exact pagination.

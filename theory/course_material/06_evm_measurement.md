@@ -2,7 +2,8 @@
 
 # Earned Value Measurement
 
-**Original source:** `06_DPI_Clase6_EVM_Medicion.pdf`  
+**Original source:** `06_DPI_Clase6_EVM_Medicion.pdf`
+
 **Pages:** 35
 
 > This Markdown version preserves the extractable text page by page. Consult the original PDF for diagrams, visual composition, and exact pagination.

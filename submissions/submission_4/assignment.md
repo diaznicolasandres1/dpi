@@ -1,0 +1,14 @@
+# Consigna — Entrega N4 (TP N°4)
+
+Fuente: texto proporcionado por el usuario el 27/10/2026; se normalizaron espacios y entidades HTML. [Texto conservado](source/assignment_prompt.txt).
+
+Entrega N4 (TP N°4): Costos detallados, control de gestión, calidad y riesgos completa
+
+Fecha de entrega: Sábado 31 de octubre de 2026
+Obligatoriedad: OBLIGATORIA
+
+Herramientas y contenido requerido:
+
+1. Presupuesto detallado y control de costos: costo detallado por tareas aplicando técnicas de estimación profesional (métodos análogos o multipunto de 3 valores: optimista, más probable y pesimista). Integración formal en una línea base de costos y definición de indicadores de seguimiento mediante la técnica del Valor Ganado (EVM).
+2. Plan de gestión de calidad: establecimiento de criterios de calidad técnica de software y mecanismos de control basados en estándares de la industria (por ejemplo, modelo ISO 9000:2000, coberturas de code review por pares, umbrales mínimos de pruebas unitarias automatizadas).
+3. Matriz de riesgos completa: elaboración de un registro sistemático de un mínimo de 10 riesgos inherentes al desarrollo informático. Debe contener análisis cualitativo (probabilidad e impacto de 1 a 5, gráfico de matriz de riesgos), definición concreta de respuestas ante riesgos (evitar, transferir, mitigar o aceptar de forma activa/pasiva, con sus respectivos planes de acción) y mecanismos de monitoreo. Se debe incluir una nota explicativa que justifique la aplicación del “Juicio de Experto” como técnica aplicada al análisis de estos riesgos y costos.

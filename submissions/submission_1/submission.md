@@ -2,7 +2,8 @@
 
 # Submission N1
 
-**Original source:** `Grupo 1_Entrega  N1.pdf`  
+**Original source:** `Grupo 1_Entrega  N1.pdf`
+
 **Pages:** 20
 
 > This Markdown version preserves the extractable text page by page. Consult the original PDF for diagrams, visual composition, and exact pagination.

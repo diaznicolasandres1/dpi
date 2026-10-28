@@ -1,17 +1,28 @@
-# Submission N3 Workspace
+# Entrega N3 (TP N.° 3)
 
-Directorio preparado para la próxima entrega.
+## 5.3. Planificación de abastecimientos, recursos humanos, comunicaciones y riesgos cualitativos
 
-Para nuevas entregas posteriores se recomienda usar `make new-submission N=<número>`, que crea las carpetas `source/` y `revisions/` automáticamente.
+**Fecha de entrega:** Sábado 17 de octubre de 2026
+**Obligatoriedad:** No obligatoria (optativa para corrección previa)
 
-Antes de comenzar:
+## Herramientas y contenido requerido
 
-1. Agregar la consigna original.
-2. Identificar las clases teóricas aplicables.
-3. Revisar [Submission Criteria](../../SUBMISSION_CRITERIA.md).
-4. Revisar [Decisions](../../DECISIONS.md).
-5. Revisar las devoluciones de [N1](../submission_1/feedback.md) y [N2](../submission_2/feedback.md).
+9. **Plan de abastecimientos y adquisiciones:** análisis técnico de decisiones de “hacer o comprar” (*make-or-buy analysis*), elaboración del SOW (*Statement of Work* o Enunciado del Trabajo) para los componentes a subcontratar (por ejemplo, licencias en la nube, servidores o consultores externos) y definición de los tipos de contratos aplicables.
 
-Al incorporar archivos, mantener los originales y crear una capa Markdown para el contenido que deba reutilizarse.
+10. **Estructura y organización del equipo:** organigrama técnico del proyecto, definición clara de roles y responsabilidades de los ingenieros/desarrolladores, y confección de la Matriz RACI para los paquetes de trabajo clave.
 
-Las correcciones posteriores deben guardarse en `revisions/revision_1/`, `revision_2/`, etc., sin sobrescribir la versión entregada.
+11. **Plan de gestión de las comunicaciones:** matriz que detalle canales de comunicación (reuniones técnicas, *dailies*, tableros Jira, informes), frecuencia de contacto, responsables y destinatarios. Debe incluir agendas de ejemplo y plantillas estandarizadas para minutas de reunión.
+
+12. **Análisis cualitativo de riesgos (versión preliminar):** listado preliminar de riesgos operacionales y técnicos, evaluación de probabilidad e impacto, y propuesta de respuestas a los riesgos priorizados.
+
+## Revisión 1
+
+- [PDF corregido](<revisions/revision_1/Grupo 1_Entrega N3.pdf>): incorpora probabilidades cualitativas y respuestas preliminares; preserva los impactos y prioridades originales. Solo se modifica el PDF.
+- [Notas de revisión](revisions/revision_1/revision_notes.md)
+- [Texto de consulta del PDF corregido](revisions/revision_1/submission.md)
+
+## Revisión 2 (vigente)
+
+- [PDF corregido](<revisions/revision_2/Grupo 1_Entrega N3.pdf>): simplifica la explicación de probabilidad y elimina la oración sobre aprobación de cambios; conserva el resto de la revisión 1.
+- [Notas de revisión](revisions/revision_2/revision_notes.md)
+- [Texto de consulta](revisions/revision_2/submission.md)

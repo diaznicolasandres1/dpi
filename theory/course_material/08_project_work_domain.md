@@ -2,7 +2,8 @@
 
 # Project Work Performance Domain
 
-**Original source:** `08_DPI_Clase8_Dominio_Trabajo_del_Proyecto.pdf`  
+**Original source:** `08_DPI_Clase8_Dominio_Trabajo_del_Proyecto.pdf`
+
 **Pages:** 15
 
 > This Markdown version preserves the extractable text page by page. Consult the original PDF for diagrams, visual composition, and exact pagination.

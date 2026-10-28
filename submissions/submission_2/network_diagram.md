@@ -2,7 +2,8 @@
 
 # AON Network Diagram
 
-**Original source:** `Grupo_1_entrega_N2_Diagrama_de_red_AON.pdf`  
+**Original source:** `Grupo_1_entrega_N2_Diagrama_de_red_AON.pdf`
+
 **Pages:** 1
 
 > This Markdown version preserves the extractable text page by page. Consult the original PDF for diagrams, visual composition, and exact pagination.

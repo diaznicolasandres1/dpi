@@ -2,7 +2,8 @@
 
 # DPI Introduction
 
-**Original source:** `01_DPI_Introducción.pdf`  
+**Original source:** `01_DPI_Introducción.pdf`
+
 **Pages:** 45
 
 > This Markdown version preserves the extractable text page by page. Consult the original PDF for diagrams, visual composition, and exact pagination.

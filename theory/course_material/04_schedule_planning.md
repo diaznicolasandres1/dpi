@@ -2,7 +2,8 @@
 
 # Schedule Planning
 
-**Original source:** `04_DPI_Clase4_Dominio_Planificacion_Plazos.pdf`  
+**Original source:** `04_DPI_Clase4_Dominio_Planificacion_Plazos.pdf`
+
 **Pages:** 37
 
 > This Markdown version preserves the extractable text page by page. Consult the original PDF for diagrams, visual composition, and exact pagination.

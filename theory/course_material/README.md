@@ -12,5 +12,8 @@ Cada clase conserva el PDF original y posee una versión Markdown con el texto o
 | Earned Value Measurement | [06_evm_measurement.md](06_evm_measurement.md) |
 | Project work performance domain | [08_project_work_domain.md](08_project_work_domain.md) |
 | Team and stakeholders | [08_09_team_and_stakeholders.md](08_09_team_and_stakeholders.md) |
+| Recursos humanos | [10_human_resources.md](10_human_resources.md) |
+| Taller OBS, RACI y Juicio de Experto | [11_obs_raci_expert_judgment_workshop.md](11_obs_raci_expert_judgment_workshop.md) |
+| Dominio de abastecimiento y adquisiciones | [12_procurement_and_acquisitions.md](12_procurement_and_acquisitions.md) |
 
 Las versiones Markdown preservan el texto extraíble. Los elementos visuales deben consultarse en el PDF correspondiente.

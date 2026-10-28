@@ -2,6 +2,18 @@
   "documents": [
     {
       "type": "pdf",
+      "source": "submissions/submission_3/revisions/revision_2/Grupo 1_Entrega N3.pdf",
+      "output": "submissions/submission_3/revisions/revision_2/submission.md",
+      "title": "Submission N3 Revision 2"
+    },
+    {
+      "type": "pdf",
+      "source": "submissions/submission_3/revisions/revision_1/Grupo 1_Entrega N3.pdf",
+      "output": "submissions/submission_3/revisions/revision_1/submission.md",
+      "title": "Submission N3 Revision 1"
+    },
+    {
+      "type": "pdf",
       "source": "theory/course_material/01_DPI_Introducción.pdf",
       "output": "theory/course_material/01_introduction.md",
       "title": "DPI Introduction"
@@ -83,6 +95,24 @@
       "source": "submissions/submission_2/Grupo_1_entrega_N2_Gantt_y_presupuesto.xlsx",
       "output": "submissions/submission_2/gantt_and_budget.md",
       "title": "Submission N2 Gantt and Budget"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/course_material/10_DPI_Clase10_Recursos_Humanos.pdf",
+      "output": "theory/course_material/10_human_resources.md",
+      "title": "Recursos humanos"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/course_material/11_DPI_Clase11_Taller_OBS_RACI_Juicio_Experto.pdf",
+      "output": "theory/course_material/11_obs_raci_expert_judgment_workshop.md",
+      "title": "Taller OBS, RACI y Juicio de Experto"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/course_material/12_DPI_Clase12_Dominio_Abastecimiento_Adquisiciones.pdf",
+      "output": "theory/course_material/12_procurement_and_acquisitions.md",
+      "title": "Dominio de abastecimiento y adquisiciones"
     }
   ],
   "manual_conversions": [
@@ -94,6 +124,13 @@
       ],
       "output": "theory/cost_appendices/cost_appendices.md",
       "reason": "The images require visually checked transcription."
+    },
+    {
+      "sources": [
+        "submissions/submission_4/source/assignment_prompt.txt"
+      ],
+      "output": "submissions/submission_4/assignment.md",
+      "reason": "Consigna recibida por chat; copia en Markdown con normalización de espacios y entidades HTML, sin alterar requisitos."
     }
   ]
 }

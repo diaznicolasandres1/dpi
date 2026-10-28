@@ -2,7 +2,8 @@
 
 # Planning Performance Domain
 
-**Original source:** `03_DPI_Clase3_Dominio_Planificacion.pdf`  
+**Original source:** `03_DPI_Clase3_Dominio_Planificacion.pdf`
+
 **Pages:** 23
 
 > This Markdown version preserves the extractable text page by page. Consult the original PDF for diagrams, visual composition, and exact pagination.

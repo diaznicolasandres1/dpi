@@ -23,6 +23,9 @@
   - [06 Earned Value Measurement](theory/course_material/06_evm_measurement.md)
   - [08 Project Work Performance Domain](theory/course_material/08_project_work_domain.md)
   - [08 and 09 Team and Stakeholders](theory/course_material/08_09_team_and_stakeholders.md)
+  - [10 Recursos humanos](theory/course_material/10_human_resources.md)
+  - [11 Taller OBS, RACI y Juicio de Experto](theory/course_material/11_obs_raci_expert_judgment_workshop.md)
+  - [12 Dominio de abastecimiento y adquisiciones](theory/course_material/12_procurement_and_acquisitions.md)
 - [Cost appendices overview](theory/cost_appendices/README.md)
 - [Consolidated cost appendices](theory/cost_appendices/cost_appendices.md)
 - [Earned Value indicators cheatsheet](theory/cost_appendices/earned_value_indicators_cheatsheet.md)
@@ -57,3 +60,13 @@
 ### Submission N3
 
 - [Submission N3 workspace](submissions/submission_3/README.md)
+- [Submission N3 revision notes](submissions/submission_3/revisions/revision_1/revision_notes.md)
+- [Submission N3 revised PDF text](submissions/submission_3/revisions/revision_1/submission.md)
+- [Submission N3 revision 2 notes](submissions/submission_3/revisions/revision_2/revision_notes.md)
+- [Submission N3 revision 2 PDF text](submissions/submission_3/revisions/revision_2/submission.md)
+
+### Submission N4
+
+- [Submission N4 workspace](submissions/submission_4/README.md)
+- [Consigna N4](submissions/submission_4/assignment.md)
+- [Disponibilidad de clases para N4](submissions/submission_4/material_readiness.md)
