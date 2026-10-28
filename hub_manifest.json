@@ -113,6 +113,12 @@
       "source": "theory/course_material/12_DPI_Clase12_Dominio_Abastecimiento_Adquisiciones.pdf",
       "output": "theory/course_material/12_procurement_and_acquisitions.md",
       "title": "Dominio de abastecimiento y adquisiciones"
+    },
+    {
+      "type": "pdf",
+      "source": "auxiliar_exercises/cloud_ecommerce_migration/Ejercicio_DPI_Migracion_Ecommerce_Hogar_Norte.pdf",
+      "output": "auxiliar_exercises/cloud_ecommerce_migration/exercise_prompt.md",
+      "title": "Hogar Norte: Migración del comercio electrónico a la nube — Consigna"
     }
   ],
   "manual_conversions": [
