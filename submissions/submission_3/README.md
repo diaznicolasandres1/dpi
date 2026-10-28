@@ -21,7 +21,13 @@
 - [Notas de revisión](revisions/revision_1/revision_notes.md)
 - [Texto de consulta del PDF corregido](revisions/revision_1/submission.md)
 
-## Revisión 2 (vigente)
+## Última entrega confirmada — revisión 2 (vigente)
+
+El 27/10/2026 el usuario identificó `Grupo 1_Entrega N3.pdf` como la última entrega del TP3. El archivo recibido coincide byte a byte con el PDF de revisión 2 ya conservado en el hub (13 páginas). Se mantiene ese archivo como versión vigente, sin duplicarlo ni reemplazar versiones anteriores.
+
+**SHA-256:** `04de7927728d0aa8c656988d2628431127ea5e307d40f2c1bd2e91a5973fd0af`.
+
+Esta confirmación corresponde al PDF. No se recibió una nueva planilla Excel junto con él.
 
 - [PDF corregido](<revisions/revision_2/Grupo 1_Entrega N3.pdf>): simplifica la explicación de probabilidad y elimina la oración sobre aprobación de cambios; conserva el resto de la revisión 1.
 - [Notas de revisión](revisions/revision_2/revision_notes.md)

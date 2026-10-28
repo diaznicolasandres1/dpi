@@ -75,7 +75,8 @@
 
 ### Submission N3
 
-- [Submission N3 workspace](submissions/submission_3/README.md)
+- [Submission N3 — última entrega confirmada](submissions/submission_3/README.md)
+- [PDF vigente N3](<submissions/submission_3/revisions/revision_2/Grupo 1_Entrega N3.pdf>)
 - [Submission N3 revision notes](submissions/submission_3/revisions/revision_1/revision_notes.md)
 - [Submission N3 revised PDF text](submissions/submission_3/revisions/revision_1/submission.md)
 - [Submission N3 revision 2 notes](submissions/submission_3/revisions/revision_2/revision_notes.md)
