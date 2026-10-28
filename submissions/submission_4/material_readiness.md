@@ -2,6 +2,14 @@
 
 Relevamiento del 27/10/2026. La consigna está en [assignment.md](assignment.md). Este documento registra disponibilidad; no constituye la resolución del TP4.
 
+## Colección complementaria GDP incorporada
+
+Se incorporó una [colección GDP independiente](../../theory/gdp_material/README.md), cuya numeración no equivale a las clases DPI. Incluye [Incertidumbre](../../theory/gdp_material/07_uncertainty_domain.md) y [Entrega y calidad](../../theory/gdp_material/09_delivery_and_quality.md). Por tanto, la falta de las clases DPI específicas que se registra abajo no implica ausencia total de teoría sobre estos temas en el hub.
+
+Incertidumbre desarrolla matriz de probabilidad e impacto, definición de escalas y umbrales (PDF, pp. 10–18) y respuestas a amenazas (pp. 19–21). La p. 17 fue inspeccionada visualmente; su gráfico usa probabilidades e impactos entre 0 y 1, mientras la consigna N4 exige 1 a 5: deberá aplicarse la escala de la consigna y documentar la adaptación. La p. 3 de Entrega y calidad fue inspeccionada visualmente y desarrolla cumplimiento de requisitos, expectativas y criterios de aceptación. La disponibilidad no equivale a una validación completa de los controles específicos de software solicitados.
+
+Las conversiones de esta colección requieren OCR en páginas sin texto seleccionable. Consultar los PDF originales para fórmulas, tablas y gráficos.
+
 ## Cobertura
 
 | Requisito | Material disponible | Estado |

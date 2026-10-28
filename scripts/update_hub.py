@@ -57,6 +57,12 @@ def write_output(path: Path, parts: list[str]) -> None:
 
 def pdf_to_markdown(source: Path, destination: Path, title: str) -> None:
     reader = PdfReader(str(source))
+    ocr_path = source.with_suffix(".ocr.json")
+    ocr = None
+    if ocr_path.exists():
+        ocr = json.loads(ocr_path.read_text(encoding="utf-8"))
+        if ocr["source_sha256"] != source_hash(source) or len(ocr["pages"]) != len(reader.pages):
+            raise SystemExit(f"Stale or invalid OCR sidecar: {ocr_path}")
     parts = [
         generated_marker(source),
         "",
@@ -69,8 +75,12 @@ def pdf_to_markdown(source: Path, destination: Path, title: str) -> None:
         "> This Markdown version preserves the extractable text page by page. Consult the original PDF for diagrams, visual composition, and exact pagination.",
         "",
     ]
+    if ocr is not None:
+        parts.extend(["> Extracción directa complementada con OCR (Apple Vision, español e inglés) en páginas sin texto suficiente. Puede contener errores en fórmulas, tablas y orden de lectura. Verificar el PDF original antes de aplicar sus valores o formatos.", ""])
     for number, page in enumerate(reader.pages, 1):
         text = clean_text(page.extract_text() or "")
+        if ocr is not None and len(text) < 100:
+            text = clean_text(ocr["pages"][number - 1])
         parts.extend([f"## Page {number}", "", text or "_[No extractable text]_", ""])
     write_output(destination, parts)
 

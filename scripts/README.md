@@ -57,3 +57,7 @@ The check detects:
 ## Important limitation
 
 Generated Markdown preserves extractable text and workbook formulas, but does not replace visual inspection of the original PDF, Word, Excel, Draw.io, or image file.
+
+## PDF basados en imágenes
+
+El conversor admite un archivo auxiliar junto al PDF con extensión `.ocr.json`. Debe contener `source_sha256` (hash del PDF) y `pages` (lista de textos, uno por página). Se verifica el hash y la cantidad de páginas antes de usarlo; el Markdown informa que proviene de OCR. Conservar estos archivos para que `make hub-update` no pierda el texto reconocido. Revisar fórmulas, tablas y gráficos contra los originales.

@@ -119,6 +119,60 @@
       "source": "auxiliar_exercises/cloud_ecommerce_migration/Ejercicio_DPI_Migracion_Ecommerce_Hogar_Norte.pdf",
       "output": "auxiliar_exercises/cloud_ecommerce_migration/exercise_prompt.md",
       "title": "Hogar Norte: Migración del comercio electrónico a la nube — Consigna"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/gdp_material/02 GDP Valor_Principios_Dominios.pdf",
+      "output": "theory/gdp_material/02_value_principles_and_domains.md",
+      "title": "Valor, principios y dominios"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/gdp_material/03 GDP Dominio Planificacion Alcance.pdf",
+      "output": "theory/gdp_material/03_scope_planning.md",
+      "title": "Planificación del alcance"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/gdp_material/04 GDP Dominio Planificacion Plazos.pdf",
+      "output": "theory/gdp_material/04_schedule_planning.md",
+      "title": "Planificación de plazos"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/gdp_material/05 GDP Dominio Equipo.pdf",
+      "output": "theory/gdp_material/05_team_domain.md",
+      "title": "Dominio del equipo"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/gdp_material/06 GDP Dominio Planificacion Costos.pdf",
+      "output": "theory/gdp_material/06_cost_planning.md",
+      "title": "Planificación de costos"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/gdp_material/07 GDP Dominio Incertidumbre.pdf",
+      "output": "theory/gdp_material/07_uncertainty_domain.md",
+      "title": "Dominio de incertidumbre"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/gdp_material/08 GDP Dominio Interesados.pdf",
+      "output": "theory/gdp_material/08_stakeholders_domain.md",
+      "title": "Dominio de interesados"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/gdp_material/09 GDP Dominio Entrega_Calidad.pdf",
+      "output": "theory/gdp_material/09_delivery_and_quality.md",
+      "title": "Entrega y calidad"
+    },
+    {
+      "type": "pdf",
+      "source": "theory/gdp_material/10 GDP Dominio Trabajo_Adquisiciones.pdf",
+      "output": "theory/gdp_material/10_project_work_and_procurement.md",
+      "title": "Trabajo del proyecto y adquisiciones"
     }
   ],
   "manual_conversions": [
